@@ -86,21 +86,7 @@ st.markdown("""
     }
 </style>
 """, unsafe_allow_html=True)
-
-# --- CORREÇÃO: Lógica da API Key na Sidebar simplificada e mais segura ---
-st.sidebar.title("Configurações")
-st.sidebar.header("API do Google AI")
-api_key_env = os.getenv("GEMINI_API_KEY")
-model = None
-if api_key_env:
-    if configure_llm(api_key_env):
-        model = get_model()
-        st.sidebar.success("✅ API do Google configurada com sucesso!")
-    else:
-        st.sidebar.error("❌ A chave de API fornecida é inválida.")
-else:
-    st.sidebar.warning("A inserção por arquivo está desabilitada. Configure a variável de ambiente 'GEMINI_API_KEY'.")
-
+ 
 
 # --- Função Auxiliar para Extrair Texto de Arquivos ---
 def get_text_from_file(uploaded_file):
