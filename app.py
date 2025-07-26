@@ -160,7 +160,7 @@ with tab1:
             clube_id_edit = st.selectbox(
                 "Selecione o clube para editar:",
                 options=[None] + list(opcoes_clubes.keys()),
-                format_func=lambda x: opcoes_clubes.get(x, "Selecione..."),
+                format_func=lambda x: opcoes_clubes.get(x, ""),
                 index=0,
                 placeholder="Selecione um clube...",
                 key="clube_edit_select"
@@ -203,7 +203,7 @@ with tab1:
             clube_id_del = st.selectbox(
                 "Selecione o clube para excluir:",
                 options=[None] + list(opcoes_exclusao.keys()),
-                format_func=lambda x: opcoes_exclusao.get(x, "Selecione..."),
+                format_func=lambda x: opcoes_exclusao.get(x, ""),
                 index=0, placeholder="Selecione um clube para excluir...", key="clube_delete_select"
             )
             if clube_id_del and st.button("Confirmar Exclusão", type="secondary", use_container_width=True):
@@ -234,7 +234,7 @@ with tab2:
                 opcoes_elencos = {e[0].id: f"{e[0].descricao} ({e[0].ano}) - {e[1]}" for e in todos_elencos if e[0].id is not None}
                 elenco_id_edit = st.selectbox(
                     "Selecione o elenco para editar:",
-                    options=[None] + list(opcoes_elencos.keys()), format_func=lambda x: opcoes_elencos.get(x, "Selecione..."),
+                    options=[None] + list(opcoes_elencos.keys()), format_func=lambda x: opcoes_elencos.get(x, ""),
                     index=0, placeholder="Selecione um elenco...", key="elenco_edit_select"
                 )
                 if elenco_id_edit:
@@ -274,7 +274,7 @@ with tab2:
                         st.dataframe(pd.DataFrame(df_elencos_data), use_container_width=True, hide_index=True, column_config={"ID": st.column_config.NumberColumn(width="small")})
                         
                         opcoes_del = {e.id: f"{e.descricao} ({e.ano})" for e in elencos_clube if e.id is not None}
-                        elenco_del = st.selectbox(f"Excluir elenco de {clube.nome}:", options=[None] + list(opcoes_del.keys()), format_func=lambda x: opcoes_del.get(x, "Selecione..."), index=0, placeholder="Selecione para excluir...", key=f"del_elenco_{clube.id}")
+                        elenco_del = st.selectbox(f"Excluir elenco de {clube.nome}:", options=[None] + list(opcoes_del.keys()), format_func=lambda x: opcoes_del.get(x, ""), index=0, placeholder="Selecione para excluir...", key=f"del_elenco_{clube.id}")
                         if elenco_del and st.button(f"Excluir Elenco Selecionado", key=f"btn_del_{elenco_del}", type="secondary"):
                             if delete_elenco(elenco_del): st.success("Elenco excluído!")
                             else: st.error("Erro ao excluir o elenco.")
@@ -309,7 +309,7 @@ with tab3:
                     opcoes_jogadores = {j[0]: f"{j[1]} - {j[4]}" for j in jogadores_data}
                     jogador_id_edit = st.selectbox(
                          "Selecione o jogador para editar:",
-                         options=[None] + list(opcoes_jogadores.keys()), format_func=lambda x: opcoes_jogadores.get(x, "Selecione..."),
+                         options=[None] + list(opcoes_jogadores.keys()), format_func=lambda x: opcoes_jogadores.get(x, ""),
                          index=0, placeholder="Selecione um jogador...", key="jogador_edit_select"
                     )
                     if jogador_id_edit:
@@ -386,7 +386,7 @@ with tab3:
                 opcoes_jogadores_del = {j[0]: f"{j[1]} - {j[4]}" for j in jogadores_data}
                 jogador_id_del = st.selectbox(
                     "Selecione o jogador para excluir:",
-                    options=[None] + list(opcoes_jogadores_del.keys()), format_func=lambda x: opcoes_jogadores_del.get(x, "Selecione..."),
+                    options=[None] + list(opcoes_jogadores_del.keys()), format_func=lambda x: opcoes_jogadores_del.get(x, ""),
                     index=0, placeholder="Selecione para excluir...", key="jogador_delete_select"
                 )
                 if jogador_id_del and st.button("Confirmar Exclusão de Jogador", type="secondary", use_container_width=True):
@@ -398,9 +398,7 @@ with tab3:
 
     with subtab2:
         st.subheader("Inserir Jogadores em Lote a partir de Arquivo")
-        if not model:
-            st.error("Funcionalidade desabilitada. Configure a variável de ambiente 'GEMINI_API_KEY' para usar a IA.")
-        elif not todos_elencos:
+        if not todos_elencos:
             st.warning("Nenhum elenco disponível. Crie um elenco na aba 'Gerenciamento Manual' primeiro.")
         else:
             if 'player_list_df' not in st.session_state: 
@@ -409,7 +407,7 @@ with tab3:
             elenco_opts_lote = {e[0].id: f"{e[0].descricao} ({e[0].ano}) - {e[1]}" for e in todos_elencos if e[0].id is not None}
             selected_elenco_id = st.selectbox(
                 "Escolha o Elenco de Destino:",
-                options=[None] + list(elenco_opts_lote.keys()), format_func=lambda x: elenco_opts_lote.get(x, "Selecione..."),
+                options=[None] + list(elenco_opts_lote.keys()), format_func=lambda x: elenco_opts_lote.get(x, ""),
                 index=0, placeholder="Selecione um elenco...", key="lote_elenco_select"
             )
 
