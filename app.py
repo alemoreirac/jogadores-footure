@@ -28,7 +28,7 @@ except ImportError:
 
 
 load_dotenv()
-
+ 
 # Configuração da página
 st.set_page_config(
     page_title="Gerenciador de Futebol",
@@ -90,7 +90,7 @@ st.markdown("""
 
 # --- Função Auxiliar para Extrair Texto de Arquivos ---
 def get_text_from_file(uploaded_file):
-    """Extrai texto de diferentes tipos de arquivos."""
+    configure_llm()
     try:
         file_extension = os.path.splitext(uploaded_file.name)[1].lower()
         
@@ -424,6 +424,8 @@ with tab3:
                         # CORREÇÃO: O conteúdo do arquivo é lido e passado como texto para a função da IA
                         file_content = get_text_from_file(uploaded_file)
                         if file_content is not None:
+                            
+                            configure_llm()
                             extracted_df = extract_players_from_file_llm(file_content)
                             if extracted_df is not None and not extracted_df.empty:
                                 extracted_df['✅ Inserir'] = True

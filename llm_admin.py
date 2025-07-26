@@ -10,46 +10,32 @@ from dotenv import load_dotenv
 # Carrega variáveis de ambiente do arquivo .env
 load_dotenv()
 
+GEMINI_KEY = os.getenv("GEMINI_API_KEY", "")
+
 # Variável global para armazenar o modelo de IA inicializado
 __model = None
 
-def configure_llm(api_key: str):
-    """
-    Configura o modelo de IA Generativa com a chave de API fornecida.
-
-    Args:
-        api_key (str): A chave de API do Google AI.
-
-    Returns:
-        bool: True se a configuração for bem-sucedida, False caso contrário.
-    """
+def configure_llm():
+    
     global __model
+    api_key = GEMINI_KEY
     if not api_key:
         __model = None
         return False
     try:
         genai.configure(api_key=api_key)
-        __model = genai.GenerativeModel('gemini-1.5-flash')
+        __model = genai.GenerativeModel('gemini-2.5-flash')
         return True
     except Exception as e:
         st.error(f"❌ Erro ao configurar a API do Google: {e}")
         __model = None
         return False
 
-def get_model():
-    """Retorna a instância do modelo de IA inicializado."""
+def get_model(): 
     return __model
 
 def extract_players_from_file_llm(file_content: str):
-    """
-    Usa o LLM para extrair dados de jogadores a partir do conteúdo de um arquivo.
-
-    Args:
-        file_content (str): O conteúdo do arquivo em formato de string.
-
-    Returns:
-        pd.DataFrame: Um DataFrame do Pandas com os dados dos jogadores ou None em caso de falha.
-    """
+   
     model = get_model()
     if not model:
         st.error("❌ Modelo de IA não inicializado. Verifique se a API Key está configurada.")
