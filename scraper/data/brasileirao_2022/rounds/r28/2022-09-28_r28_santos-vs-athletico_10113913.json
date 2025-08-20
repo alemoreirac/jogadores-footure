@@ -1,0 +1,5149 @@
+{
+  "eventId": 10113913,
+  "status": "Ended",
+  "startTimestamp": 1664323200,
+  "referee": {
+    "name": "Braulio Da Silva Machado",
+    "yellowCards": 1273,
+    "redCards": 47,
+    "yellowRedCards": 31,
+    "games": 214,
+    "sport": {
+      "id": 1,
+      "name": "Football"
+    },
+    "id": 554152,
+    "country": {
+      "name": "Brazil"
+    }
+  },
+  "venue": {
+    "city": {
+      "name": "Santos"
+    },
+    "venueCoordinates": {
+      "latitude": -23.951116,
+      "longitude": -46.338991
+    },
+    "hidden": false,
+    "name": "Est\u00e1dio Urbano Caldeira",
+    "capacity": 16798,
+    "id": 810,
+    "country": {
+      "name": "Brazil"
+    },
+    "stadium": {
+      "name": "Est\u00e1dio Urbano Caldeira",
+      "capacity": 16798
+    }
+  },
+  "round": {
+    "id": 28,
+    "name": 28
+  },
+  "season": {
+    "id": 40557,
+    "name": "Brasileir\u00e3o S\u00e9rie A 2022",
+    "year": "2022"
+  },
+  "tournament": {
+    "id": 325,
+    "name": "Brasileir\u00e3o Betano",
+    "category": "Brazil"
+  },
+  "score": {
+    "home": 2,
+    "away": 0,
+    "penalties": {
+      "home": null,
+      "away": null
+    }
+  },
+  "teams": {
+    "home": {
+      "id": 1968,
+      "name": "Santos",
+      "formation": "4-4-2",
+      "coach": null,
+      "startingXI": [],
+      "bench": [],
+      "statistics": {}
+    },
+    "away": {
+      "id": 1967,
+      "name": "Athletico",
+      "formation": "4-2-3-1",
+      "coach": null,
+      "startingXI": [],
+      "bench": [],
+      "statistics": {}
+    }
+  },
+  "incidents": [
+    {
+      "text": "FT",
+      "homeScore": 2,
+      "awayScore": 0,
+      "isLive": false,
+      "time": 90,
+      "addedTime": 999,
+      "timeSeconds": 5400,
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 0,
+      "periodTimeSeconds": 2700,
+      "incidentType": "period"
+    },
+    {
+      "from": "owngoal",
+      "homeScore": 2,
+      "awayScore": 0,
+      "player": {
+        "name": "Nicol\u00e1s Hern\u00e1ndez",
+        "shortName": "N. Hern\u00e1ndez",
+        "position": "D",
+        "height": 180,
+        "userCount": 245,
+        "id": 887155,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 885081600,
+        "proposedMarketValueRaw": {
+          "value": 290000,
+          "currency": "EUR"
+        }
+      },
+      "footballPassingNetworkAction": [],
+      "id": 166101645,
+      "time": 90,
+      "addedTime": 2,
+      "isHome": true,
+      "incidentClass": "ownGoal",
+      "reversedPeriodTime": 1,
+      "incidentType": "goal"
+    },
+    {
+      "player": {
+        "name": "Matheus Felipe",
+        "firstName": "",
+        "lastName": "",
+        "shortName": "M. Felipe",
+        "position": "D",
+        "jerseyNumber": "4",
+        "height": 186,
+        "userCount": 128,
+        "id": 1110173,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 910569600,
+        "proposedMarketValueRaw": {
+          "value": 1000000,
+          "currency": "EUR"
+        }
+      },
+      "playerName": "Matheus Felipe",
+      "reason": "Foul",
+      "rescinded": false,
+      "id": 120476157,
+      "time": 90,
+      "isHome": false,
+      "incidentClass": "yellow",
+      "reversedPeriodTime": 1,
+      "incidentType": "card"
+    },
+    {
+      "length": 3,
+      "time": 90,
+      "addedTime": 0,
+      "reversedPeriodTime": 1,
+      "incidentType": "injuryTime"
+    },
+    {
+      "player": {
+        "name": "Marcos Leonardo",
+        "shortName": "M. Leonardo",
+        "position": "F",
+        "jerseyNumber": "11",
+        "height": 177,
+        "userCount": 23133,
+        "sofascoreId": "marcosleonardo09",
+        "id": 1047227,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1051833600,
+        "proposedMarketValueRaw": {
+          "value": 18700000,
+          "currency": "EUR"
+        }
+      },
+      "playerName": "Marcos Leonardo",
+      "reason": "Foul",
+      "rescinded": false,
+      "id": 120476153,
+      "time": 86,
+      "isHome": true,
+      "incidentClass": "yellow",
+      "reversedPeriodTime": 5,
+      "incidentType": "card"
+    },
+    {
+      "player": {
+        "name": "Nathan",
+        "firstName": "",
+        "lastName": "",
+        "shortName": "Nathan",
+        "position": "D",
+        "jerseyNumber": "23",
+        "height": 183,
+        "userCount": 461,
+        "id": 1016912,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 999648000,
+        "proposedMarketValueRaw": {
+          "value": 1900000,
+          "currency": "EUR"
+        }
+      },
+      "playerName": "Nathan",
+      "reason": "Foul",
+      "rescinded": false,
+      "id": 120476149,
+      "time": 84,
+      "isHome": true,
+      "incidentClass": "yellow",
+      "reversedPeriodTime": 7,
+      "incidentType": "card"
+    },
+    {
+      "playerIn": {
+        "name": "Lucas Barbosa",
+        "firstName": "Lucas Barbosa",
+        "shortName": "L. Barbosa",
+        "position": "M",
+        "jerseyNumber": "21",
+        "height": 193,
+        "userCount": 776,
+        "id": 1067641,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 982800000,
+        "proposedMarketValueRaw": {
+          "value": 4099999,
+          "currency": "EUR"
+        }
+      },
+      "playerOut": {
+        "name": "Luan",
+        "firstName": "",
+        "lastName": "",
+        "shortName": "Luan",
+        "position": "F",
+        "height": 180,
+        "userCount": 1118,
+        "id": 386210,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 733190400,
+        "proposedMarketValueRaw": {
+          "value": 220000,
+          "currency": "EUR"
+        }
+      },
+      "id": 121338593,
+      "time": 81,
+      "injury": false,
+      "isHome": true,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 10,
+      "incidentType": "substitution"
+    },
+    {
+      "playerIn": {
+        "name": "Sandry",
+        "firstName": "",
+        "lastName": "",
+        "shortName": "Sandry",
+        "position": "M",
+        "jerseyNumber": "38",
+        "height": 173,
+        "userCount": 520,
+        "id": 973847,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1030665600,
+        "proposedMarketValueRaw": {
+          "value": 970000,
+          "currency": "EUR"
+        }
+      },
+      "playerOut": {
+        "name": "Carlos S\u00e1nchez",
+        "firstName": "",
+        "lastName": "",
+        "shortName": "C. S\u00e1nchez",
+        "position": "M",
+        "height": 170,
+        "userCount": 309,
+        "id": 77034,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 470793600
+      },
+      "id": 121338592,
+      "time": 81,
+      "injury": false,
+      "isHome": true,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 10,
+      "incidentType": "substitution"
+    },
+    {
+      "playerIn": {
+        "name": "Lucas Braga",
+        "shortName": "L. Braga",
+        "position": "M",
+        "jerseyNumber": "22",
+        "height": 184,
+        "userCount": 445,
+        "id": 934801,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 847584000,
+        "proposedMarketValueRaw": {
+          "value": 970000,
+          "currency": "EUR"
+        }
+      },
+      "playerOut": {
+        "name": "Guilherme Camacho",
+        "shortName": "G. Camacho",
+        "position": "M",
+        "jerseyNumber": "5",
+        "height": 180,
+        "userCount": 178,
+        "id": 76444,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 636336000,
+        "proposedMarketValueRaw": {
+          "value": 240000,
+          "currency": "EUR"
+        }
+      },
+      "id": 121338581,
+      "time": 76,
+      "injury": false,
+      "isHome": true,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 15,
+      "incidentType": "substitution"
+    },
+    {
+      "playerIn": {
+        "name": "Vitor Roque",
+        "firstName": "Vitor Roque",
+        "shortName": "V. Roque",
+        "position": "F",
+        "jerseyNumber": "9",
+        "height": 174,
+        "userCount": 82779,
+        "sofascoreId": "VRoque",
+        "id": 1150391,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1109548800,
+        "proposedMarketValueRaw": {
+          "value": 21000000,
+          "currency": "EUR"
+        }
+      },
+      "playerOut": {
+        "name": "Vitor Bueno",
+        "firstName": "",
+        "lastName": "",
+        "shortName": "Vitor Bueno",
+        "position": "M",
+        "jerseyNumber": "55",
+        "height": 183,
+        "userCount": 460,
+        "id": 808785,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 778723200,
+        "proposedMarketValueRaw": {
+          "value": 1500000,
+          "currency": "EUR"
+        }
+      },
+      "id": 121338578,
+      "time": 72,
+      "injury": false,
+      "isHome": false,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 19,
+      "incidentType": "substitution"
+    },
+    {
+      "playerIn": {
+        "name": "R\u00f4mulo",
+        "firstName": "R\u00f4mulo",
+        "lastName": "",
+        "shortName": "R\u00f4mulo",
+        "position": "F",
+        "jerseyNumber": "79",
+        "height": 193,
+        "userCount": 2209,
+        "id": 1133743,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1013126400,
+        "proposedMarketValueRaw": {
+          "value": 11600000,
+          "currency": "EUR"
+        }
+      },
+      "playerOut": {
+        "name": "Pablo",
+        "firstName": "",
+        "lastName": "",
+        "shortName": "Pablo",
+        "position": "F",
+        "jerseyNumber": "92",
+        "height": 185,
+        "userCount": 988,
+        "id": 374486,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 709257600,
+        "proposedMarketValueRaw": {
+          "value": 650000,
+          "currency": "EUR"
+        }
+      },
+      "id": 121338576,
+      "time": 72,
+      "injury": false,
+      "isHome": false,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 19,
+      "incidentType": "substitution"
+    },
+    {
+      "playerIn": {
+        "name": "Marlos Romero",
+        "shortName": "Marlos",
+        "position": "M",
+        "height": 173,
+        "userCount": 282,
+        "id": 61073,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 581644800
+      },
+      "playerOut": {
+        "name": "David Terans",
+        "firstName": "",
+        "lastName": "",
+        "shortName": "David Terans",
+        "position": "M",
+        "jerseyNumber": "80",
+        "height": 176,
+        "userCount": 942,
+        "id": 586662,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 776563200,
+        "proposedMarketValueRaw": {
+          "value": 1400000,
+          "currency": "EUR"
+        }
+      },
+      "id": 121338577,
+      "time": 72,
+      "injury": false,
+      "isHome": false,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 19,
+      "incidentType": "substitution"
+    },
+    {
+      "player": {
+        "name": "Alex Santana",
+        "shortName": "A. Santana",
+        "position": "M",
+        "jerseyNumber": "80",
+        "height": 182,
+        "userCount": 2847,
+        "id": 358166,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 800323200,
+        "proposedMarketValueRaw": {
+          "value": 1200000,
+          "currency": "EUR"
+        }
+      },
+      "playerName": "Alex Santana",
+      "reason": "Foul",
+      "rescinded": false,
+      "id": 120476142,
+      "time": 63,
+      "isHome": false,
+      "incidentClass": "yellow",
+      "reversedPeriodTime": 28,
+      "incidentType": "card"
+    },
+    {
+      "player": {
+        "name": "Felipe Jonatan",
+        "firstName": "",
+        "lastName": "",
+        "shortName": "F. Jonatan",
+        "position": "D",
+        "jerseyNumber": "16",
+        "height": 176,
+        "userCount": 459,
+        "id": 931574,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 887500800,
+        "proposedMarketValueRaw": {
+          "value": 2100000,
+          "currency": "EUR"
+        }
+      },
+      "playerName": "Felipe Jonatan",
+      "reason": "Argument",
+      "rescinded": false,
+      "id": 120476138,
+      "time": 58,
+      "isHome": true,
+      "incidentClass": "yellow",
+      "reversedPeriodTime": 33,
+      "incidentType": "card"
+    },
+    {
+      "player": {
+        "name": "Pablo",
+        "firstName": "",
+        "lastName": "",
+        "shortName": "Pablo",
+        "position": "F",
+        "jerseyNumber": "92",
+        "height": 185,
+        "userCount": 988,
+        "id": 374486,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 709257600,
+        "proposedMarketValueRaw": {
+          "value": 650000,
+          "currency": "EUR"
+        }
+      },
+      "playerName": "Pablo",
+      "reason": "Foul",
+      "rescinded": false,
+      "id": 120476135,
+      "time": 54,
+      "isHome": false,
+      "incidentClass": "yellow",
+      "reversedPeriodTime": 37,
+      "incidentType": "card"
+    },
+    {
+      "playerIn": {
+        "name": "Tom\u00e1s Cuello",
+        "shortName": "T. Cuello",
+        "position": "M",
+        "jerseyNumber": "28",
+        "height": 176,
+        "userCount": 1785,
+        "id": 871273,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 952214400,
+        "proposedMarketValueRaw": {
+          "value": 6600000,
+          "currency": "EUR"
+        }
+      },
+      "playerOut": {
+        "name": "Vitinho",
+        "firstName": "",
+        "lastName": "",
+        "shortName": "Vitinho",
+        "position": "M",
+        "jerseyNumber": "28",
+        "height": 181,
+        "userCount": 900,
+        "id": 982405,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 922924800,
+        "proposedMarketValueRaw": {
+          "value": 7300000,
+          "currency": "EUR"
+        }
+      },
+      "id": 121338555,
+      "time": 46,
+      "injury": false,
+      "isHome": false,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 45,
+      "incidentType": "substitution"
+    },
+    {
+      "playerIn": {
+        "name": "Alex Santana",
+        "shortName": "A. Santana",
+        "position": "M",
+        "jerseyNumber": "80",
+        "height": 182,
+        "userCount": 2847,
+        "id": 358166,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 800323200,
+        "proposedMarketValueRaw": {
+          "value": 1200000,
+          "currency": "EUR"
+        }
+      },
+      "playerOut": {
+        "name": "Hugo Moura",
+        "shortName": "H. Moura",
+        "position": "M",
+        "jerseyNumber": "25",
+        "height": 177,
+        "userCount": 1661,
+        "id": 973293,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 883785600,
+        "proposedMarketValueRaw": {
+          "value": 1700000,
+          "currency": "EUR"
+        }
+      },
+      "id": 121338554,
+      "time": 46,
+      "injury": false,
+      "isHome": false,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 45,
+      "incidentType": "substitution"
+    },
+    {
+      "text": "HT",
+      "homeScore": 1,
+      "awayScore": 0,
+      "isLive": false,
+      "time": 45,
+      "addedTime": 999,
+      "timeSeconds": 2700,
+      "reversedPeriodTime": 1,
+      "reversedPeriodTimeSeconds": 0,
+      "periodTimeSeconds": 2700,
+      "incidentType": "period"
+    },
+    {
+      "length": 6,
+      "time": 45,
+      "addedTime": 0,
+      "reversedPeriodTime": 1,
+      "incidentType": "injuryTime"
+    },
+    {
+      "homeScore": 1,
+      "awayScore": 0,
+      "player": {
+        "name": "Luan",
+        "firstName": "",
+        "lastName": "",
+        "shortName": "Luan",
+        "position": "F",
+        "height": 180,
+        "userCount": 1118,
+        "id": 386210,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 733190400,
+        "proposedMarketValueRaw": {
+          "value": 220000,
+          "currency": "EUR"
+        }
+      },
+      "assist1": {
+        "name": "Felipe Jonatan",
+        "firstName": "",
+        "lastName": "",
+        "shortName": "F. Jonatan",
+        "position": "D",
+        "jerseyNumber": "16",
+        "height": 176,
+        "userCount": 459,
+        "id": 931574,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 887500800,
+        "proposedMarketValueRaw": {
+          "value": 2100000,
+          "currency": "EUR"
+        }
+      },
+      "footballPassingNetworkAction": [],
+      "id": 166099404,
+      "time": 35,
+      "isHome": true,
+      "incidentClass": "regular",
+      "reversedPeriodTime": 11,
+      "incidentType": "goal"
+    },
+    {
+      "confirmed": false,
+      "player": {
+        "name": "\u00c2ngelo",
+        "firstName": "\u00c2ngelo",
+        "lastName": "",
+        "shortName": "\u00c2ngelo",
+        "position": "M",
+        "jerseyNumber": "20",
+        "height": 182,
+        "userCount": 10149,
+        "sofascoreId": "angelogabriel",
+        "id": 1086455,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 1103587200,
+        "proposedMarketValueRaw": {
+          "value": 8600000,
+          "currency": "EUR"
+        }
+      },
+      "isHome": true,
+      "id": 13427,
+      "time": 28,
+      "incidentClass": "penaltyAwarded",
+      "reversedPeriodTime": 18,
+      "incidentType": "varDecision"
+    },
+    {
+      "playerIn": {
+        "name": "Luiz Felipe",
+        "firstName": "",
+        "lastName": "",
+        "shortName": "Luiz Felipe",
+        "position": "D",
+        "jerseyNumber": "3",
+        "height": 187,
+        "userCount": 119,
+        "id": 831993,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 747532800,
+        "proposedMarketValueRaw": {
+          "value": 640000,
+          "currency": "EUR"
+        }
+      },
+      "playerOut": {
+        "name": "Maicon",
+        "shortName": "Maicon",
+        "position": "D",
+        "jerseyNumber": "3",
+        "height": 191,
+        "userCount": 842,
+        "id": 44691,
+        "marketValueCurrency": "EUR",
+        "dateOfBirthTimestamp": 590198400,
+        "proposedMarketValueRaw": {
+          "value": 145000,
+          "currency": "EUR"
+        }
+      },
+      "id": 121338547,
+      "time": 15,
+      "injury": true,
+      "isHome": true,
+      "incidentClass": "injury",
+      "reversedPeriodTime": 31,
+      "incidentType": "substitution"
+    }
+  ],
+  "raw": {
+    "core": {
+      "tournament": {
+        "name": "Brasileir\u00e3o Betano",
+        "category": {
+          "name": "Brazil",
+          "sport": {
+            "name": "Football",
+            "id": 1
+          },
+          "id": 13,
+          "country": {
+            "name": "Brazil"
+          },
+          "flag": "brazil"
+        },
+        "uniqueTournament": {
+          "name": "Brasileir\u00e3o Betano",
+          "primaryColorHex": "#C7FF00",
+          "secondaryColorHex": "#969696",
+          "category": {
+            "name": "Brazil",
+            "sport": {
+              "name": "Football",
+              "id": 1
+            },
+            "id": 13,
+            "country": {
+              "name": "Brazil"
+            },
+            "flag": "brazil"
+          },
+          "userCount": 314776,
+          "hasPerformanceGraphFeature": true,
+          "id": 325,
+          "country": {},
+          "hasEventPlayerStatistics": true,
+          "displayInverseHomeAwayTeams": false
+        },
+        "priority": 505,
+        "isGroup": false,
+        "competitionType": 1,
+        "isLive": false,
+        "id": 83
+      },
+      "season": {
+        "name": "Brasileir\u00e3o S\u00e9rie A 2022",
+        "year": "2022",
+        "editor": false,
+        "id": 40557
+      },
+      "roundInfo": {
+        "round": 28
+      },
+      "customId": "rOstO",
+      "status": {
+        "code": 100,
+        "description": "Ended",
+        "type": "finished"
+      },
+      "winnerCode": 1,
+      "venue": {
+        "city": {
+          "name": "Santos"
+        },
+        "venueCoordinates": {
+          "latitude": -23.951116,
+          "longitude": -46.338991
+        },
+        "hidden": false,
+        "name": "Est\u00e1dio Urbano Caldeira",
+        "capacity": 16798,
+        "id": 810,
+        "country": {
+          "name": "Brazil"
+        },
+        "stadium": {
+          "name": "Est\u00e1dio Urbano Caldeira",
+          "capacity": 16798
+        }
+      },
+      "referee": {
+        "name": "Braulio Da Silva Machado",
+        "yellowCards": 1273,
+        "redCards": 47,
+        "yellowRedCards": 31,
+        "games": 214,
+        "sport": {
+          "id": 1,
+          "name": "Football"
+        },
+        "id": 554152,
+        "country": {
+          "name": "Brazil"
+        }
+      },
+      "homeTeam": {
+        "name": "Santos",
+        "shortName": "Santos",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "id": 1
+        },
+        "userCount": 435277,
+        "manager": {
+          "name": "Cleber Xavier",
+          "shortName": "C. Xavier",
+          "id": 810635,
+          "country": {
+            "name": "Brazil"
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Santos"
+          },
+          "venueCoordinates": {
+            "latitude": -23.951116,
+            "longitude": -46.338991
+          },
+          "hidden": false,
+          "name": "Est\u00e1dio Urbano Caldeira",
+          "capacity": 16798,
+          "id": 810,
+          "country": {
+            "name": "Brazil"
+          },
+          "stadium": {
+            "name": "Est\u00e1dio Urbano Caldeira",
+            "capacity": 16798
+          }
+        },
+        "nameCode": "SAN",
+        "class": 4,
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 1968,
+        "country": {
+          "name": "Brazil"
+        },
+        "fullName": "Santos",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#ffffff",
+          "secondary": "#ffffff",
+          "text": "#ffffff"
+        },
+        "foundationDateTimestamp": -1821398400,
+        "timeActive": []
+      },
+      "awayTeam": {
+        "name": "Athletico",
+        "shortName": "Athletico",
+        "gender": "M",
+        "sport": {
+          "name": "Football",
+          "id": 1
+        },
+        "userCount": 136427,
+        "manager": {
+          "name": "Odair Hellmann",
+          "shortName": "O. Hellmann",
+          "id": 789461,
+          "country": {
+            "name": "Brazil"
+          }
+        },
+        "venue": {
+          "city": {
+            "name": "Curitiba"
+          },
+          "venueCoordinates": {
+            "latitude": -25.44793,
+            "longitude": -49.27703
+          },
+          "hidden": false,
+          "name": "Ligga Arena",
+          "capacity": 43000,
+          "id": 1129,
+          "country": {
+            "name": "Brazil"
+          },
+          "stadium": {
+            "name": "Ligga Arena",
+            "capacity": 43000
+          }
+        },
+        "nameCode": "ATH",
+        "disabled": false,
+        "national": false,
+        "type": 0,
+        "id": 1967,
+        "country": {
+          "name": "Brazil"
+        },
+        "fullName": "Athletico",
+        "subTeams": [],
+        "teamColors": {
+          "primary": "#000000",
+          "secondary": "#cc0000",
+          "text": "#cc0000"
+        },
+        "foundationDateTimestamp": -1444348800,
+        "timeActive": []
+      },
+      "homeScore": {
+        "current": 2,
+        "display": 2,
+        "period1": 1,
+        "period2": 1,
+        "normaltime": 2
+      },
+      "awayScore": {
+        "current": 0,
+        "display": 0,
+        "period1": 0,
+        "period2": 0,
+        "normaltime": 0
+      },
+      "time": {
+        "injuryTime1": 6,
+        "injuryTime2": 3,
+        "currentPeriodStartTimestamp": 1664330201
+      },
+      "changes": {
+        "changes": [
+          "status.code",
+          "status.description",
+          "status.type",
+          "homeScore.period2",
+          "homeScore.normaltime",
+          "awayScore.period2",
+          "awayScore.normaltime",
+          "time.currentPeriodStart"
+        ],
+        "changeTimestamp": 1664330203
+      },
+      "hasGlobalHighlights": false,
+      "hasXg": true,
+      "hasEventPlayerStatistics": true,
+      "hasEventPlayerHeatMap": true,
+      "detailId": 1,
+      "crowdsourcingDataDisplayEnabled": false,
+      "id": 10113913,
+      "defaultPeriodCount": 2,
+      "defaultPeriodLength": 45,
+      "defaultOvertimeLength": 15,
+      "varInProgress": {
+        "homeTeam": false,
+        "awayTeam": false
+      },
+      "currentPeriodStartTimestamp": 1664330201,
+      "startTimestamp": 1664323200,
+      "finalResultOnly": false,
+      "feedLocked": false,
+      "fanRatingEvent": false,
+      "seasonStatisticsType": "overall",
+      "showTotoPromo": true,
+      "isEditor": false
+    },
+    "lineups": {
+      "confirmed": true,
+      "home": {
+        "players": [
+          {
+            "player": {
+              "name": "Jo\u00e3o Paulo",
+              "shortName": "J. Paulo",
+              "position": "G",
+              "jerseyNumber": "1",
+              "height": 188,
+              "userCount": 1449,
+              "id": 795177,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 804384000,
+              "proposedMarketValueRaw": {
+                "value": 2400000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 1968,
+            "shirtNumber": 34,
+            "jerseyNumber": "34",
+            "position": "G",
+            "substitute": false,
+            "statistics": {
+              "totalPass": 29,
+              "accuratePass": 16,
+              "totalLongBalls": 17,
+              "accurateLongBalls": 4,
+              "duelWon": 1,
+              "totalContest": 1,
+              "wonContest": 1,
+              "interceptionWon": 1,
+              "savedShotsFromInsideTheBox": 1,
+              "saves": 3,
+              "minutesPlayed": 90,
+              "touches": 41,
+              "rating": 7.6,
+              "possessionLostCtrl": 13,
+              "expectedGoals": 0,
+              "goalsPrevented": 0.7585
+            }
+          },
+          {
+            "player": {
+              "name": "Nathan",
+              "firstName": "",
+              "lastName": "",
+              "shortName": "Nathan",
+              "position": "D",
+              "jerseyNumber": "23",
+              "height": 183,
+              "userCount": 461,
+              "id": 1016912,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 999648000,
+              "proposedMarketValueRaw": {
+                "value": 1900000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 2012,
+            "shirtNumber": 16,
+            "jerseyNumber": "16",
+            "position": "D",
+            "substitute": false,
+            "statistics": {
+              "totalPass": 30,
+              "accuratePass": 27,
+              "totalLongBalls": 1,
+              "accurateLongBalls": 1,
+              "totalCross": 2,
+              "aerialLost": 1,
+              "aerialWon": 2,
+              "duelLost": 9,
+              "duelWon": 7,
+              "challengeLost": 2,
+              "totalContest": 8,
+              "wonContest": 3,
+              "shotOffTarget": 1,
+              "totalClearance": 2,
+              "outfielderBlock": 1,
+              "totalTackle": 2,
+              "fouls": 1,
+              "minutesPlayed": 90,
+              "touches": 61,
+              "rating": 6.7,
+              "possessionLostCtrl": 13,
+              "expectedGoals": 0.0543,
+              "expectedAssists": 0.00645253
+            }
+          },
+          {
+            "player": {
+              "name": "Maicon",
+              "shortName": "Maicon",
+              "position": "D",
+              "jerseyNumber": "3",
+              "height": 191,
+              "userCount": 842,
+              "id": 44691,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 590198400,
+              "proposedMarketValueRaw": {
+                "value": 145000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 1982,
+            "shirtNumber": 33,
+            "jerseyNumber": "33",
+            "position": "D",
+            "substitute": false,
+            "statistics": {
+              "totalPass": 10,
+              "accuratePass": 8,
+              "totalLongBalls": 3,
+              "accurateLongBalls": 2,
+              "minutesPlayed": 15,
+              "touches": 11,
+              "rating": 6.6,
+              "possessionLostCtrl": 3,
+              "expectedGoals": 0,
+              "expectedAssists": 0.0434934
+            }
+          },
+          {
+            "player": {
+              "name": "Eduardo Bauermann",
+              "firstName": "",
+              "lastName": "",
+              "shortName": "E. Bauermann",
+              "position": "D",
+              "jerseyNumber": "4",
+              "height": 186,
+              "userCount": 319,
+              "id": 358530,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 824169600,
+              "proposedMarketValueRaw": {
+                "value": 1200000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 1936,
+            "shirtNumber": 4,
+            "jerseyNumber": "4",
+            "position": "D",
+            "substitute": false,
+            "statistics": {
+              "totalPass": 31,
+              "accuratePass": 25,
+              "totalLongBalls": 5,
+              "accurateLongBalls": 1,
+              "aerialLost": 2,
+              "aerialWon": 4,
+              "duelLost": 3,
+              "duelWon": 7,
+              "shotOffTarget": 1,
+              "onTargetScoringAttempt": 1,
+              "totalClearance": 2,
+              "outfielderBlock": 2,
+              "interceptionWon": 2,
+              "totalTackle": 1,
+              "wasFouled": 2,
+              "fouls": 1,
+              "minutesPlayed": 90,
+              "touches": 42,
+              "rating": 7.6,
+              "possessionLostCtrl": 6,
+              "expectedGoals": 0.1305
+            }
+          },
+          {
+            "player": {
+              "name": "Felipe Jonatan",
+              "firstName": "",
+              "lastName": "",
+              "shortName": "F. Jonatan",
+              "position": "D",
+              "jerseyNumber": "16",
+              "height": 176,
+              "userCount": 459,
+              "id": 931574,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 887500800,
+              "proposedMarketValueRaw": {
+                "value": 2100000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 21982,
+            "shirtNumber": 3,
+            "jerseyNumber": "3",
+            "position": "D",
+            "substitute": false,
+            "statistics": {
+              "totalPass": 59,
+              "accuratePass": 44,
+              "totalLongBalls": 6,
+              "accurateLongBalls": 2,
+              "goalAssist": 1,
+              "totalCross": 4,
+              "accurateCross": 2,
+              "aerialWon": 3,
+              "duelLost": 2,
+              "duelWon": 4,
+              "totalContest": 1,
+              "bigChanceCreated": 1,
+              "shotOffTarget": 1,
+              "totalClearance": 1,
+              "interceptionWon": 1,
+              "totalTackle": 1,
+              "fouls": 1,
+              "minutesPlayed": 90,
+              "touches": 83,
+              "rating": 7.5,
+              "possessionLostCtrl": 20,
+              "expectedGoals": 0.015,
+              "keyPass": 1,
+              "expectedAssists": 0.0978307
+            }
+          },
+          {
+            "player": {
+              "name": "Carlos S\u00e1nchez",
+              "firstName": "",
+              "lastName": "",
+              "shortName": "C. S\u00e1nchez",
+              "position": "M",
+              "height": 170,
+              "userCount": 309,
+              "id": 77034,
+              "country": {
+                "name": "Uruguay"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 470793600
+            },
+            "teamId": 35189,
+            "shirtNumber": 7,
+            "jerseyNumber": "7",
+            "position": "M",
+            "substitute": false,
+            "captain": true,
+            "statistics": {
+              "totalPass": 18,
+              "accuratePass": 15,
+              "totalLongBalls": 2,
+              "totalCross": 4,
+              "accurateCross": 2,
+              "aerialLost": 1,
+              "duelLost": 8,
+              "duelWon": 2,
+              "challengeLost": 1,
+              "dispossessed": 2,
+              "totalContest": 2,
+              "onTargetScoringAttempt": 1,
+              "blockedScoringAttempt": 1,
+              "totalTackle": 1,
+              "wasFouled": 1,
+              "fouls": 2,
+              "totalOffside": 1,
+              "minutesPlayed": 81,
+              "touches": 34,
+              "rating": 6.6,
+              "possessionLostCtrl": 10,
+              "expectedGoals": 0.0596,
+              "keyPass": 3,
+              "expectedAssists": 0.0555121
+            }
+          },
+          {
+            "player": {
+              "name": "Vinicius Zanocelo",
+              "shortName": "Vinicius Zanocelo",
+              "position": "M",
+              "jerseyNumber": "7",
+              "height": 184,
+              "userCount": 443,
+              "id": 973841,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 980812800,
+              "proposedMarketValueRaw": {
+                "value": 2600000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 2001,
+            "shirtNumber": 25,
+            "jerseyNumber": "25",
+            "position": "M",
+            "substitute": false,
+            "statistics": {
+              "totalPass": 36,
+              "accuratePass": 24,
+              "totalLongBalls": 3,
+              "accurateLongBalls": 2,
+              "aerialLost": 1,
+              "aerialWon": 6,
+              "duelLost": 4,
+              "duelWon": 11,
+              "dispossessed": 1,
+              "totalContest": 2,
+              "wonContest": 1,
+              "shotOffTarget": 1,
+              "blockedScoringAttempt": 1,
+              "totalClearance": 3,
+              "interceptionWon": 2,
+              "totalTackle": 2,
+              "wasFouled": 2,
+              "fouls": 1,
+              "minutesPlayed": 90,
+              "touches": 56,
+              "rating": 7.1,
+              "possessionLostCtrl": 15,
+              "expectedGoals": 0.0444,
+              "expectedAssists": 0.0166237
+            }
+          },
+          {
+            "player": {
+              "name": "Guilherme Camacho",
+              "shortName": "G. Camacho",
+              "position": "M",
+              "jerseyNumber": "5",
+              "height": 180,
+              "userCount": 178,
+              "id": 76444,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 636336000,
+              "proposedMarketValueRaw": {
+                "value": 240000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 2010,
+            "shirtNumber": 29,
+            "jerseyNumber": "29",
+            "position": "M",
+            "substitute": false,
+            "statistics": {
+              "totalPass": 33,
+              "accuratePass": 27,
+              "totalLongBalls": 3,
+              "accurateLongBalls": 1,
+              "aerialLost": 1,
+              "aerialWon": 1,
+              "duelLost": 3,
+              "duelWon": 3,
+              "challengeLost": 1,
+              "totalClearance": 1,
+              "interceptionWon": 3,
+              "totalTackle": 2,
+              "fouls": 1,
+              "minutesPlayed": 76,
+              "touches": 40,
+              "rating": 6.7,
+              "possessionLostCtrl": 6,
+              "expectedGoals": 0,
+              "expectedAssists": 0.00907269
+            }
+          },
+          {
+            "player": {
+              "name": "\u00c2ngelo",
+              "firstName": "\u00c2ngelo",
+              "lastName": "",
+              "shortName": "\u00c2ngelo",
+              "position": "M",
+              "jerseyNumber": "20",
+              "height": 182,
+              "userCount": 10149,
+              "sofascoreId": "angelogabriel",
+              "id": 1086455,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 1103587200,
+              "proposedMarketValueRaw": {
+                "value": 8600000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 23400,
+            "shirtNumber": 11,
+            "jerseyNumber": "11",
+            "position": "M",
+            "substitute": false,
+            "statistics": {
+              "totalPass": 29,
+              "accuratePass": 16,
+              "totalCross": 5,
+              "aerialLost": 1,
+              "duelLost": 9,
+              "duelWon": 9,
+              "dispossessed": 2,
+              "totalContest": 8,
+              "wonContest": 6,
+              "bigChanceMissed": 1,
+              "shotOffTarget": 1,
+              "wasFouled": 3,
+              "fouls": 4,
+              "minutesPlayed": 90,
+              "touches": 56,
+              "rating": 6.5,
+              "possessionLostCtrl": 27,
+              "expectedGoals": 0.2069,
+              "expectedAssists": 0.0125383
+            }
+          },
+          {
+            "player": {
+              "name": "Marcos Leonardo",
+              "shortName": "M. Leonardo",
+              "position": "F",
+              "jerseyNumber": "11",
+              "height": 177,
+              "userCount": 23133,
+              "sofascoreId": "marcosleonardo09",
+              "id": 1047227,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 1051833600,
+              "proposedMarketValueRaw": {
+                "value": 18700000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 21895,
+            "shirtNumber": 9,
+            "jerseyNumber": "9",
+            "position": "F",
+            "substitute": false,
+            "statistics": {
+              "totalPass": 13,
+              "accuratePass": 11,
+              "aerialLost": 1,
+              "aerialWon": 1,
+              "duelLost": 5,
+              "duelWon": 11,
+              "dispossessed": 1,
+              "totalContest": 3,
+              "wonContest": 2,
+              "bigChanceCreated": 1,
+              "totalClearance": 1,
+              "totalTackle": 2,
+              "wasFouled": 6,
+              "fouls": 2,
+              "minutesPlayed": 90,
+              "touches": 30,
+              "rating": 7.2,
+              "possessionLostCtrl": 7,
+              "expectedGoals": 0,
+              "keyPass": 1,
+              "expectedAssists": 0.0402313
+            }
+          },
+          {
+            "player": {
+              "name": "Luan",
+              "firstName": "",
+              "lastName": "",
+              "shortName": "Luan",
+              "position": "F",
+              "height": 180,
+              "userCount": 1118,
+              "id": 386210,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 733190400,
+              "proposedMarketValueRaw": {
+                "value": 220000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 241802,
+            "shirtNumber": 20,
+            "jerseyNumber": "20",
+            "position": "F",
+            "substitute": false,
+            "statistics": {
+              "totalPass": 36,
+              "accuratePass": 33,
+              "totalCross": 2,
+              "accurateCross": 1,
+              "aerialLost": 6,
+              "aerialWon": 1,
+              "duelLost": 12,
+              "duelWon": 7,
+              "dispossessed": 3,
+              "totalContest": 3,
+              "wonContest": 2,
+              "onTargetScoringAttempt": 1,
+              "goals": 1,
+              "totalTackle": 1,
+              "wasFouled": 3,
+              "fouls": 2,
+              "minutesPlayed": 81,
+              "touches": 52,
+              "rating": 7.4,
+              "possessionLostCtrl": 8,
+              "expectedGoals": 0.1015,
+              "keyPass": 1,
+              "expectedAssists": 0.0725753
+            }
+          },
+          {
+            "player": {
+              "name": "Luiz Felipe",
+              "firstName": "",
+              "lastName": "",
+              "shortName": "Luiz Felipe",
+              "position": "D",
+              "jerseyNumber": "3",
+              "height": 187,
+              "userCount": 119,
+              "id": 831993,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 747532800,
+              "proposedMarketValueRaw": {
+                "value": 640000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 1960,
+            "shirtNumber": 2,
+            "jerseyNumber": "2",
+            "position": "D",
+            "substitute": true,
+            "statistics": {
+              "totalPass": 22,
+              "accuratePass": 15,
+              "totalLongBalls": 2,
+              "aerialLost": 1,
+              "aerialWon": 3,
+              "duelLost": 2,
+              "duelWon": 4,
+              "totalClearance": 4,
+              "interceptionWon": 1,
+              "totalTackle": 1,
+              "fouls": 1,
+              "minutesPlayed": 75,
+              "touches": 30,
+              "rating": 6.8,
+              "possessionLostCtrl": 7,
+              "expectedGoals": 0
+            }
+          },
+          {
+            "player": {
+              "name": "Lucas Braga",
+              "shortName": "L. Braga",
+              "position": "M",
+              "jerseyNumber": "22",
+              "height": 184,
+              "userCount": 445,
+              "id": 934801,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 847584000,
+              "proposedMarketValueRaw": {
+                "value": 970000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 1962,
+            "shirtNumber": 30,
+            "jerseyNumber": "30",
+            "position": "F",
+            "substitute": true,
+            "statistics": {
+              "totalPass": 4,
+              "accuratePass": 2,
+              "duelLost": 2,
+              "duelWon": 3,
+              "dispossessed": 2,
+              "totalContest": 1,
+              "wonContest": 1,
+              "bigChanceMissed": 1,
+              "onTargetScoringAttempt": 1,
+              "wasFouled": 2,
+              "minutesPlayed": 14,
+              "touches": 10,
+              "rating": 6.3,
+              "possessionLostCtrl": 4,
+              "expectedGoals": 0.1716,
+              "expectedAssists": 0.0271453
+            }
+          },
+          {
+            "player": {
+              "name": "Sandry",
+              "firstName": "",
+              "lastName": "",
+              "shortName": "Sandry",
+              "position": "M",
+              "jerseyNumber": "38",
+              "height": 173,
+              "userCount": 520,
+              "id": 973847,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 1030665600,
+              "proposedMarketValueRaw": {
+                "value": 970000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 342775,
+            "shirtNumber": 6,
+            "jerseyNumber": "6",
+            "position": "M",
+            "substitute": true,
+            "statistics": {
+              "totalPass": 6,
+              "accuratePass": 6,
+              "duelLost": 1,
+              "totalContest": 1,
+              "totalClearance": 1,
+              "outfielderBlock": 1,
+              "interceptionWon": 1,
+              "minutesPlayed": 9,
+              "touches": 11,
+              "rating": 6.6,
+              "possessionLostCtrl": 1,
+              "expectedGoals": 0
+            }
+          },
+          {
+            "player": {
+              "name": "Lucas Barbosa",
+              "firstName": "Lucas Barbosa",
+              "shortName": "L. Barbosa",
+              "position": "M",
+              "jerseyNumber": "21",
+              "height": 193,
+              "userCount": 776,
+              "id": 1067641,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 982800000,
+              "proposedMarketValueRaw": {
+                "value": 4099999,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 1999,
+            "shirtNumber": 21,
+            "jerseyNumber": "21",
+            "position": "M",
+            "substitute": true,
+            "statistics": {
+              "totalPass": 2,
+              "accuratePass": 1,
+              "duelLost": 4,
+              "duelWon": 1,
+              "challengeLost": 1,
+              "totalClearance": 1,
+              "totalTackle": 1,
+              "fouls": 3,
+              "minutesPlayed": 9,
+              "touches": 5,
+              "rating": 6.8,
+              "possessionLostCtrl": 1,
+              "expectedGoals": 0
+            }
+          },
+          {
+            "player": {
+              "name": "John Victor",
+              "shortName": "John",
+              "position": "G",
+              "jerseyNumber": "12",
+              "height": 197,
+              "userCount": 2120,
+              "id": 840103,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 824169600,
+              "proposedMarketValueRaw": {
+                "value": 7800000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 1958,
+            "shirtNumber": 22,
+            "jerseyNumber": "22",
+            "position": "G",
+            "substitute": true,
+            "statistics": {}
+          },
+          {
+            "player": {
+              "name": "Lucas Pires",
+              "firstName": "",
+              "lastName": "",
+              "shortName": "L. Pires",
+              "position": "D",
+              "jerseyNumber": "23",
+              "height": 182,
+              "userCount": 479,
+              "id": 1136896,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 985392000,
+              "proposedMarketValueRaw": {
+                "value": 5400000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 6,
+            "shirtNumber": 44,
+            "jerseyNumber": "44",
+            "position": "D",
+            "substitute": true,
+            "statistics": {}
+          },
+          {
+            "player": {
+              "name": "Jhojan Julio",
+              "shortName": "J. Julio",
+              "position": "M",
+              "jerseyNumber": "7",
+              "height": 168,
+              "userCount": 266,
+              "id": 925741,
+              "country": {
+                "name": "Ecuador"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 887155200,
+              "proposedMarketValueRaw": {
+                "value": 1100000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 1951,
+            "shirtNumber": 8,
+            "jerseyNumber": "8",
+            "position": "M",
+            "substitute": true,
+            "statistics": {}
+          },
+          {
+            "player": {
+              "name": "Ed Carlos",
+              "firstName": "Ed Carlos",
+              "lastName": "",
+              "shortName": "Ed Carlos",
+              "position": "M",
+              "jerseyNumber": "26",
+              "height": 187,
+              "userCount": 102,
+              "id": 1066714,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 984960000,
+              "proposedMarketValueRaw": {
+                "value": 435000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 49196,
+            "shirtNumber": 37,
+            "jerseyNumber": "37",
+            "position": "M",
+            "substitute": true,
+            "statistics": {}
+          },
+          {
+            "player": {
+              "name": "Auro",
+              "firstName": "",
+              "lastName": "",
+              "shortName": "Auro",
+              "position": "M",
+              "height": 168,
+              "userCount": 69,
+              "id": 358528,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 822355200,
+              "proposedMarketValueRaw": {
+                "value": 430000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 241802,
+            "shirtNumber": 27,
+            "jerseyNumber": "27",
+            "position": "D",
+            "substitute": true,
+            "statistics": {}
+          },
+          {
+            "player": {
+              "name": "Gabriel Carabajal",
+              "shortName": "Gabriel Carabajal",
+              "position": "M",
+              "jerseyNumber": "10",
+              "height": 178,
+              "userCount": 95,
+              "id": 830742,
+              "country": {
+                "name": "Argentina"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 692236800,
+              "proposedMarketValueRaw": {
+                "value": 230000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 4936,
+            "shirtNumber": 5,
+            "jerseyNumber": "5",
+            "position": "M",
+            "substitute": true,
+            "statistics": {}
+          },
+          {
+            "player": {
+              "name": "Tailson",
+              "shortName": "Tailson",
+              "position": "F",
+              "jerseyNumber": "11",
+              "height": 177,
+              "userCount": 96,
+              "id": 973848,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 920592000,
+              "proposedMarketValueRaw": {
+                "value": 415000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 5241,
+            "shirtNumber": 39,
+            "jerseyNumber": "39",
+            "position": "F",
+            "substitute": true,
+            "statistics": {}
+          },
+          {
+            "player": {
+              "name": "Rwan Cruz",
+              "firstName": "Rwan Cruz",
+              "lastName": "",
+              "shortName": "Rwan Cruz",
+              "position": "F",
+              "jerseyNumber": "12",
+              "height": 187,
+              "userCount": 1175,
+              "id": 1180918,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 990316800,
+              "proposedMarketValueRaw": {
+                "value": 5300000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 5133,
+            "shirtNumber": 12,
+            "jerseyNumber": "12",
+            "position": "F",
+            "substitute": true,
+            "statistics": {}
+          }
+        ],
+        "supportStaff": [],
+        "formation": "4-4-2",
+        "playerColor": {
+          "primary": "ffffff",
+          "number": "000000",
+          "outline": "ffffff",
+          "fancyNumber": "222226"
+        },
+        "goalkeeperColor": {
+          "primary": "ff0000",
+          "number": "ffffff",
+          "outline": "ff0000",
+          "fancyNumber": "ffffff"
+        }
+      },
+      "away": {
+        "players": [
+          {
+            "player": {
+              "name": "Bento",
+              "firstName": "",
+              "lastName": "",
+              "shortName": "Bento",
+              "position": "G",
+              "jerseyNumber": "24",
+              "height": 190,
+              "userCount": 8442,
+              "sofascoreId": "bento_matheus",
+              "id": 1016104,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 928972800,
+              "proposedMarketValueRaw": {
+                "value": 10600000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 23400,
+            "shirtNumber": 1,
+            "jerseyNumber": "1",
+            "position": "G",
+            "substitute": false,
+            "statistics": {
+              "totalPass": 18,
+              "accuratePass": 8,
+              "totalLongBalls": 16,
+              "accurateLongBalls": 6,
+              "totalClearance": 1,
+              "goodHighClaim": 1,
+              "savedShotsFromInsideTheBox": 2,
+              "saves": 3,
+              "minutesPlayed": 90,
+              "touches": 27,
+              "rating": 6.5,
+              "possessionLostCtrl": 10,
+              "expectedGoals": 0,
+              "goalsPrevented": -0.777
+            }
+          },
+          {
+            "player": {
+              "name": "Khellven",
+              "firstName": "",
+              "lastName": "",
+              "shortName": "Khellven",
+              "position": "M",
+              "jerseyNumber": "12",
+              "height": 176,
+              "userCount": 1297,
+              "id": 984896,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 983059200,
+              "proposedMarketValueRaw": {
+                "value": 5200000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 1963,
+            "shirtNumber": 13,
+            "jerseyNumber": "13",
+            "position": "D",
+            "substitute": false,
+            "statistics": {
+              "totalPass": 34,
+              "accuratePass": 27,
+              "totalLongBalls": 4,
+              "totalCross": 6,
+              "aerialLost": 1,
+              "aerialWon": 1,
+              "duelLost": 9,
+              "duelWon": 7,
+              "challengeLost": 3,
+              "totalContest": 2,
+              "wonContest": 1,
+              "interceptionWon": 3,
+              "totalTackle": 3,
+              "wasFouled": 2,
+              "fouls": 4,
+              "minutesPlayed": 90,
+              "touches": 65,
+              "rating": 6.2,
+              "possessionLostCtrl": 21,
+              "expectedGoals": 0,
+              "expectedAssists": 0.0108552
+            }
+          },
+          {
+            "player": {
+              "name": "Matheus Felipe",
+              "firstName": "",
+              "lastName": "",
+              "shortName": "M. Felipe",
+              "position": "D",
+              "jerseyNumber": "4",
+              "height": 186,
+              "userCount": 128,
+              "id": 1110173,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 910569600,
+              "proposedMarketValueRaw": {
+                "value": 1000000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 33120,
+            "shirtNumber": 42,
+            "jerseyNumber": "42",
+            "position": "D",
+            "substitute": false,
+            "statistics": {
+              "totalPass": 42,
+              "accuratePass": 31,
+              "totalLongBalls": 13,
+              "accurateLongBalls": 4,
+              "aerialLost": 1,
+              "aerialWon": 1,
+              "duelLost": 6,
+              "duelWon": 3,
+              "totalClearance": 5,
+              "outfielderBlock": 1,
+              "interceptionWon": 1,
+              "totalTackle": 2,
+              "fouls": 5,
+              "minutesPlayed": 90,
+              "touches": 52,
+              "rating": 6.5,
+              "possessionLostCtrl": 12,
+              "expectedGoals": 0,
+              "expectedAssists": 0.00678543
+            }
+          },
+          {
+            "player": {
+              "name": "Thiago Heleno",
+              "firstName": "",
+              "lastName": "",
+              "shortName": "T. Heleno",
+              "position": "D",
+              "jerseyNumber": "44",
+              "height": 185,
+              "userCount": 342,
+              "id": 33106,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 590457600,
+              "proposedMarketValueRaw": {
+                "value": 230000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 1997,
+            "shirtNumber": 44,
+            "jerseyNumber": "44",
+            "position": "D",
+            "substitute": false,
+            "captain": true,
+            "statistics": {
+              "totalPass": 46,
+              "accuratePass": 34,
+              "totalLongBalls": 13,
+              "accurateLongBalls": 3,
+              "aerialLost": 2,
+              "aerialWon": 1,
+              "duelLost": 4,
+              "duelWon": 4,
+              "challengeLost": 1,
+              "shotOffTarget": 1,
+              "totalClearance": 3,
+              "interceptionWon": 3,
+              "lastManTackle": 1,
+              "totalTackle": 1,
+              "wasFouled": 2,
+              "fouls": 1,
+              "minutesPlayed": 90,
+              "touches": 56,
+              "rating": 6.3,
+              "possessionLostCtrl": 12,
+              "expectedGoals": 0.0508,
+              "expectedAssists": 0.00964282
+            }
+          },
+          {
+            "player": {
+              "name": "Nicol\u00e1s Hern\u00e1ndez",
+              "shortName": "N. Hern\u00e1ndez",
+              "position": "D",
+              "height": 180,
+              "userCount": 245,
+              "id": 887155,
+              "country": {
+                "name": "Colombia"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 885081600,
+              "proposedMarketValueRaw": {
+                "value": 290000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 241802,
+            "shirtNumber": 2,
+            "jerseyNumber": "2",
+            "position": "D",
+            "substitute": false,
+            "statistics": {
+              "totalPass": 43,
+              "accuratePass": 37,
+              "totalLongBalls": 8,
+              "accurateLongBalls": 4,
+              "aerialLost": 2,
+              "duelLost": 6,
+              "duelWon": 11,
+              "challengeLost": 2,
+              "totalClearance": 2,
+              "totalTackle": 9,
+              "ownGoals": 1,
+              "wasFouled": 2,
+              "fouls": 2,
+              "minutesPlayed": 90,
+              "touches": 69,
+              "rating": 6.9,
+              "possessionLostCtrl": 11,
+              "expectedGoals": 0,
+              "expectedAssists": 0.00703975
+            }
+          },
+          {
+            "player": {
+              "name": "Fernandinho",
+              "firstName": "",
+              "lastName": "",
+              "shortName": "Fernandinho",
+              "position": "M",
+              "height": 179,
+              "userCount": 2269,
+              "id": 13630,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 484012800,
+              "proposedMarketValueRaw": {
+                "value": 260000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 241802,
+            "shirtNumber": 5,
+            "jerseyNumber": "5",
+            "position": "M",
+            "substitute": false,
+            "statistics": {
+              "totalPass": 62,
+              "accuratePass": 53,
+              "totalLongBalls": 4,
+              "accurateLongBalls": 4,
+              "aerialLost": 4,
+              "aerialWon": 4,
+              "duelLost": 7,
+              "duelWon": 16,
+              "challengeLost": 1,
+              "dispossessed": 2,
+              "totalContest": 1,
+              "wonContest": 1,
+              "bigChanceCreated": 1,
+              "totalClearance": 2,
+              "outfielderBlock": 1,
+              "interceptionWon": 2,
+              "totalTackle": 5,
+              "wasFouled": 6,
+              "minutesPlayed": 90,
+              "touches": 87,
+              "rating": 8,
+              "possessionLostCtrl": 12,
+              "expectedGoals": 0,
+              "keyPass": 2,
+              "expectedAssists": 0.159025
+            }
+          },
+          {
+            "player": {
+              "name": "Hugo Moura",
+              "shortName": "H. Moura",
+              "position": "M",
+              "jerseyNumber": "25",
+              "height": 177,
+              "userCount": 1661,
+              "id": 973293,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 883785600,
+              "proposedMarketValueRaw": {
+                "value": 1700000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 1974,
+            "shirtNumber": 17,
+            "jerseyNumber": "17",
+            "position": "M",
+            "substitute": false,
+            "statistics": {
+              "totalPass": 18,
+              "accuratePass": 16,
+              "totalLongBalls": 1,
+              "accurateLongBalls": 1,
+              "aerialWon": 1,
+              "duelLost": 3,
+              "duelWon": 1,
+              "challengeLost": 3,
+              "totalClearance": 1,
+              "interceptionWon": 3,
+              "minutesPlayed": 45,
+              "touches": 25,
+              "rating": 6.5,
+              "possessionLostCtrl": 3,
+              "expectedGoals": 0,
+              "keyPass": 1,
+              "expectedAssists": 0.00768022
+            }
+          },
+          {
+            "player": {
+              "name": "Vitor Bueno",
+              "firstName": "",
+              "lastName": "",
+              "shortName": "Vitor Bueno",
+              "position": "M",
+              "jerseyNumber": "55",
+              "height": 183,
+              "userCount": 460,
+              "id": 808785,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 778723200,
+              "proposedMarketValueRaw": {
+                "value": 1500000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 3141,
+            "shirtNumber": 8,
+            "jerseyNumber": "8",
+            "position": "M",
+            "substitute": false,
+            "statistics": {
+              "totalPass": 28,
+              "accuratePass": 23,
+              "totalLongBalls": 1,
+              "accurateLongBalls": 1,
+              "totalCross": 1,
+              "aerialLost": 1,
+              "aerialWon": 4,
+              "duelLost": 4,
+              "duelWon": 7,
+              "dispossessed": 1,
+              "totalContest": 1,
+              "totalClearance": 1,
+              "totalTackle": 1,
+              "wasFouled": 2,
+              "fouls": 1,
+              "minutesPlayed": 72,
+              "touches": 41,
+              "rating": 6.7,
+              "possessionLostCtrl": 10,
+              "expectedGoals": 0,
+              "keyPass": 2,
+              "expectedAssists": 0.0194733
+            }
+          },
+          {
+            "player": {
+              "name": "David Terans",
+              "firstName": "",
+              "lastName": "",
+              "shortName": "David Terans",
+              "position": "M",
+              "jerseyNumber": "80",
+              "height": 176,
+              "userCount": 942,
+              "id": 586662,
+              "country": {
+                "name": "Uruguay"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 776563200,
+              "proposedMarketValueRaw": {
+                "value": 1400000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 3227,
+            "shirtNumber": 20,
+            "jerseyNumber": "20",
+            "position": "M",
+            "substitute": false,
+            "statistics": {
+              "totalPass": 20,
+              "accuratePass": 17,
+              "totalLongBalls": 1,
+              "accurateLongBalls": 1,
+              "totalCross": 2,
+              "aerialLost": 2,
+              "duelLost": 4,
+              "duelWon": 1,
+              "challengeLost": 1,
+              "dispossessed": 1,
+              "shotOffTarget": 2,
+              "blockedScoringAttempt": 1,
+              "wasFouled": 1,
+              "minutesPlayed": 72,
+              "touches": 32,
+              "rating": 6.3,
+              "possessionLostCtrl": 8,
+              "expectedGoals": 0.0852,
+              "expectedAssists": 0.0102985
+            }
+          },
+          {
+            "player": {
+              "name": "Vitinho",
+              "firstName": "",
+              "lastName": "",
+              "shortName": "Vitinho",
+              "position": "M",
+              "jerseyNumber": "28",
+              "height": 181,
+              "userCount": 900,
+              "id": 982405,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 922924800,
+              "proposedMarketValueRaw": {
+                "value": 7300000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 1966,
+            "shirtNumber": 11,
+            "jerseyNumber": "11",
+            "position": "M",
+            "substitute": false,
+            "statistics": {
+              "totalPass": 12,
+              "accuratePass": 12,
+              "aerialLost": 3,
+              "duelLost": 7,
+              "duelWon": 3,
+              "challengeLost": 2,
+              "totalContest": 2,
+              "wonContest": 1,
+              "shotOffTarget": 1,
+              "totalTackle": 1,
+              "wasFouled": 1,
+              "fouls": 1,
+              "totalOffside": 1,
+              "minutesPlayed": 45,
+              "touches": 22,
+              "rating": 6.3,
+              "possessionLostCtrl": 2,
+              "expectedGoals": 0.0204
+            }
+          },
+          {
+            "player": {
+              "name": "Pablo",
+              "firstName": "",
+              "lastName": "",
+              "shortName": "Pablo",
+              "position": "F",
+              "jerseyNumber": "92",
+              "height": 185,
+              "userCount": 988,
+              "id": 374486,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 709257600,
+              "proposedMarketValueRaw": {
+                "value": 650000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 1959,
+            "shirtNumber": 92,
+            "jerseyNumber": "92",
+            "position": "F",
+            "substitute": false,
+            "statistics": {
+              "totalPass": 13,
+              "accuratePass": 8,
+              "aerialLost": 4,
+              "aerialWon": 3,
+              "duelLost": 7,
+              "duelWon": 4,
+              "totalContest": 1,
+              "bigChanceMissed": 1,
+              "shotOffTarget": 1,
+              "onTargetScoringAttempt": 1,
+              "totalClearance": 1,
+              "wasFouled": 1,
+              "fouls": 2,
+              "minutesPlayed": 72,
+              "touches": 24,
+              "rating": 6.3,
+              "possessionLostCtrl": 10,
+              "expectedGoals": 0.2385
+            }
+          },
+          {
+            "player": {
+              "name": "Tom\u00e1s Cuello",
+              "shortName": "T. Cuello",
+              "position": "M",
+              "jerseyNumber": "28",
+              "height": 176,
+              "userCount": 1785,
+              "id": 871273,
+              "country": {
+                "name": "Argentina"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 952214400,
+              "proposedMarketValueRaw": {
+                "value": 6600000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 1977,
+            "shirtNumber": 28,
+            "jerseyNumber": "28",
+            "position": "M",
+            "substitute": true,
+            "statistics": {
+              "totalPass": 15,
+              "accuratePass": 12,
+              "totalLongBalls": 1,
+              "totalCross": 3,
+              "duelWon": 4,
+              "totalContest": 1,
+              "wonContest": 1,
+              "shotOffTarget": 1,
+              "blockedScoringAttempt": 1,
+              "totalTackle": 2,
+              "wasFouled": 1,
+              "fouls": 2,
+              "minutesPlayed": 45,
+              "touches": 27,
+              "rating": 7,
+              "possessionLostCtrl": 8,
+              "expectedGoals": 0.0694,
+              "keyPass": 2,
+              "expectedAssists": 0.0115952
+            }
+          },
+          {
+            "player": {
+              "name": "Alex Santana",
+              "shortName": "A. Santana",
+              "position": "M",
+              "jerseyNumber": "80",
+              "height": 182,
+              "userCount": 2847,
+              "id": 358166,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 800323200,
+              "proposedMarketValueRaw": {
+                "value": 1200000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 5926,
+            "shirtNumber": 80,
+            "jerseyNumber": "80",
+            "position": "M",
+            "substitute": true,
+            "statistics": {
+              "totalPass": 19,
+              "accuratePass": 18,
+              "aerialLost": 1,
+              "duelLost": 8,
+              "duelWon": 2,
+              "challengeLost": 3,
+              "dispossessed": 1,
+              "totalContest": 2,
+              "wonContest": 1,
+              "shotOffTarget": 1,
+              "onTargetScoringAttempt": 1,
+              "totalClearance": 1,
+              "wasFouled": 1,
+              "fouls": 2,
+              "totalOffside": 1,
+              "minutesPlayed": 45,
+              "touches": 29,
+              "rating": 6.1,
+              "possessionLostCtrl": 5,
+              "expectedGoals": 0.0832,
+              "expectedAssists": 0.0102293
+            }
+          },
+          {
+            "player": {
+              "name": "Marlos Romero",
+              "shortName": "Marlos",
+              "position": "M",
+              "height": 173,
+              "userCount": 282,
+              "id": 61073,
+              "country": {
+                "name": "Ukraine"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 581644800
+            },
+            "teamId": 241802,
+            "shirtNumber": 10,
+            "jerseyNumber": "10",
+            "position": "M",
+            "substitute": true,
+            "statistics": {
+              "totalPass": 11,
+              "accuratePass": 10,
+              "totalLongBalls": 1,
+              "accurateLongBalls": 1,
+              "totalCross": 1,
+              "accurateCross": 1,
+              "duelLost": 2,
+              "dispossessed": 1,
+              "bigChanceCreated": 1,
+              "blockedScoringAttempt": 1,
+              "fouls": 1,
+              "minutesPlayed": 18,
+              "touches": 15,
+              "rating": 6.8,
+              "possessionLostCtrl": 2,
+              "expectedGoals": 0.0193,
+              "keyPass": 2,
+              "expectedAssists": 0.295009
+            }
+          },
+          {
+            "player": {
+              "name": "Vitor Roque",
+              "firstName": "Vitor Roque",
+              "shortName": "V. Roque",
+              "position": "F",
+              "jerseyNumber": "9",
+              "height": 174,
+              "userCount": 82779,
+              "sofascoreId": "VRoque",
+              "id": 1150391,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 1109548800,
+              "proposedMarketValueRaw": {
+                "value": 21000000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 1963,
+            "shirtNumber": 39,
+            "jerseyNumber": "39",
+            "position": "F",
+            "substitute": true,
+            "statistics": {
+              "totalPass": 5,
+              "accuratePass": 5,
+              "duelLost": 2,
+              "dispossessed": 2,
+              "bigChanceMissed": 1,
+              "onTargetScoringAttempt": 1,
+              "minutesPlayed": 18,
+              "touches": 8,
+              "rating": 6.2,
+              "possessionLostCtrl": 2,
+              "expectedGoals": 0.2181,
+              "keyPass": 1,
+              "expectedAssists": 0.0610635
+            }
+          },
+          {
+            "player": {
+              "name": "R\u00f4mulo",
+              "firstName": "R\u00f4mulo",
+              "lastName": "",
+              "shortName": "R\u00f4mulo",
+              "position": "F",
+              "jerseyNumber": "79",
+              "height": 193,
+              "userCount": 2209,
+              "id": 1133743,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 1013126400,
+              "proposedMarketValueRaw": {
+                "value": 11600000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 36360,
+            "shirtNumber": 35,
+            "jerseyNumber": "35",
+            "position": "F",
+            "substitute": true,
+            "statistics": {
+              "totalPass": 3,
+              "accuratePass": 3,
+              "duelLost": 1,
+              "duelWon": 1,
+              "dispossessed": 1,
+              "blockedScoringAttempt": 1,
+              "totalTackle": 1,
+              "minutesPlayed": 18,
+              "touches": 7,
+              "rating": 6.5,
+              "possessionLostCtrl": 1,
+              "expectedGoals": 0.0445
+            }
+          },
+          {
+            "player": {
+              "name": "Anderson",
+              "firstName": "",
+              "lastName": "",
+              "shortName": "Anderson",
+              "position": "G",
+              "jerseyNumber": "98",
+              "height": 190,
+              "userCount": 439,
+              "id": 942061,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 889056000,
+              "proposedMarketValueRaw": {
+                "value": 420000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 7314,
+            "shirtNumber": 98,
+            "jerseyNumber": "98",
+            "position": "G",
+            "substitute": true,
+            "statistics": {}
+          },
+          {
+            "player": {
+              "name": "Luis Orejuela",
+              "shortName": "L. Orejuela",
+              "position": "D",
+              "jerseyNumber": "28",
+              "height": 180,
+              "userCount": 608,
+              "id": 819104,
+              "country": {
+                "name": "Colombia"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 808876800,
+              "proposedMarketValueRaw": {
+                "value": 375000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 6112,
+            "shirtNumber": 24,
+            "jerseyNumber": "24",
+            "position": "D",
+            "substitute": true,
+            "statistics": {}
+          },
+          {
+            "player": {
+              "name": "L\u00e9o Cittadini",
+              "firstName": "",
+              "lastName": "",
+              "shortName": "L. Cittadini",
+              "position": "M",
+              "jerseyNumber": "18",
+              "height": 178,
+              "userCount": 440,
+              "id": 332171,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 762307200,
+              "proposedMarketValueRaw": {
+                "value": 940000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 1955,
+            "shirtNumber": 18,
+            "jerseyNumber": "18",
+            "position": "M",
+            "substitute": true,
+            "statistics": {}
+          },
+          {
+            "player": {
+              "name": "Christian",
+              "shortName": "Christian",
+              "position": "M",
+              "jerseyNumber": "88",
+              "height": 178,
+              "userCount": 1282,
+              "id": 981733,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 977184000,
+              "proposedMarketValueRaw": {
+                "value": 8500000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 1954,
+            "shirtNumber": 88,
+            "jerseyNumber": "88",
+            "position": "M",
+            "substitute": true,
+            "statistics": {}
+          },
+          {
+            "player": {
+              "name": "Bryan Garc\u00eda",
+              "firstName": "Bryan Garc\u00eda",
+              "lastName": "",
+              "shortName": "B. Garc\u00eda",
+              "position": "M",
+              "jerseyNumber": "20",
+              "height": 175,
+              "userCount": 48,
+              "id": 1065584,
+              "country": {
+                "name": "Ecuador"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 979776000,
+              "proposedMarketValueRaw": {
+                "value": 160000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 304183,
+            "shirtNumber": 30,
+            "jerseyNumber": "30",
+            "position": "M",
+            "substitute": true,
+            "statistics": {}
+          },
+          {
+            "player": {
+              "name": "Erick",
+              "firstName": "",
+              "lastName": "",
+              "shortName": "Erick",
+              "position": "M",
+              "jerseyNumber": "26",
+              "height": 176,
+              "userCount": 1029,
+              "id": 874063,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 879465600,
+              "proposedMarketValueRaw": {
+                "value": 4600000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 1955,
+            "shirtNumber": 26,
+            "jerseyNumber": "26",
+            "position": "M",
+            "substitute": true,
+            "statistics": {}
+          },
+          {
+            "player": {
+              "name": "Matheus Fernandes",
+              "shortName": "M. Fernandes",
+              "position": "M",
+              "jerseyNumber": "35",
+              "height": 183,
+              "userCount": 844,
+              "id": 840150,
+              "country": {
+                "name": "Brazil"
+              },
+              "marketValueCurrency": "EUR",
+              "dateOfBirthTimestamp": 899164800,
+              "proposedMarketValueRaw": {
+                "value": 1900000,
+                "currency": "EUR"
+              }
+            },
+            "teamId": 1999,
+            "shirtNumber": 6,
+            "jerseyNumber": "6",
+            "position": "M",
+            "substitute": true,
+            "statistics": {}
+          }
+        ],
+        "supportStaff": [],
+        "formation": "4-2-3-1",
+        "playerColor": {
+          "primary": "ffffff",
+          "number": "000000",
+          "outline": "ffffff",
+          "fancyNumber": "222226"
+        },
+        "goalkeeperColor": {
+          "primary": "050080",
+          "number": "ffffff",
+          "outline": "050080",
+          "fancyNumber": "ffffff"
+        }
+      }
+    },
+    "statistics": {
+      "statistics": [
+        {
+          "period": "ALL",
+          "groups": [
+            {
+              "groupName": "Match overview",
+              "statisticsItems": [
+                {
+                  "name": "Ball possession",
+                  "home": "49%",
+                  "away": "51%",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 49,
+                  "awayValue": 51,
+                  "renderType": 2,
+                  "key": "ballPossession"
+                },
+                {
+                  "name": "Expected goals",
+                  "home": "0.78",
+                  "away": "0.81",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 0.78,
+                  "awayValue": 0.81,
+                  "renderType": 1,
+                  "key": "expectedGoals"
+                },
+                {
+                  "name": "Big chances",
+                  "home": "3",
+                  "away": "2",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 3,
+                  "awayValue": 2,
+                  "renderType": 1,
+                  "key": "bigChanceCreated"
+                },
+                {
+                  "name": "Total shots",
+                  "home": "11",
+                  "away": "14",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 11,
+                  "awayValue": 14,
+                  "renderType": 1,
+                  "key": "totalShotsOnGoal"
+                },
+                {
+                  "name": "Goalkeeper saves",
+                  "home": "3",
+                  "away": "3",
+                  "compareCode": 3,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 3,
+                  "awayValue": 3,
+                  "renderType": 1,
+                  "key": "goalkeeperSaves"
+                },
+                {
+                  "name": "Corner kicks",
+                  "home": "5",
+                  "away": "4",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 5,
+                  "awayValue": 4,
+                  "renderType": 1,
+                  "key": "cornerKicks"
+                },
+                {
+                  "name": "Fouls",
+                  "home": "19",
+                  "away": "21",
+                  "compareCode": 2,
+                  "statisticsType": "negative",
+                  "valueType": "event",
+                  "homeValue": 19,
+                  "awayValue": 21,
+                  "renderType": 1,
+                  "key": "fouls"
+                },
+                {
+                  "name": "Passes",
+                  "home": "358",
+                  "away": "389",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 358,
+                  "awayValue": 389,
+                  "renderType": 1,
+                  "key": "passes"
+                },
+                {
+                  "name": "Tackles",
+                  "home": "14",
+                  "away": "25",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 14,
+                  "awayValue": 25,
+                  "renderType": 1,
+                  "key": "totalTackle"
+                },
+                {
+                  "name": "Free kicks",
+                  "home": "19",
+                  "away": "19",
+                  "compareCode": 3,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 19,
+                  "awayValue": 19,
+                  "renderType": 1,
+                  "key": "freeKicks"
+                },
+                {
+                  "name": "Yellow cards",
+                  "home": "3",
+                  "away": "3",
+                  "compareCode": 3,
+                  "statisticsType": "negative",
+                  "valueType": "event",
+                  "homeValue": 3,
+                  "awayValue": 3,
+                  "renderType": 1,
+                  "key": "yellowCards"
+                }
+              ]
+            },
+            {
+              "groupName": "Shots",
+              "statisticsItems": [
+                {
+                  "name": "Total shots",
+                  "home": "11",
+                  "away": "14",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 11,
+                  "awayValue": 14,
+                  "renderType": 1,
+                  "key": "totalShotsOnGoal"
+                },
+                {
+                  "name": "Shots on target",
+                  "home": "4",
+                  "away": "3",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 4,
+                  "awayValue": 3,
+                  "renderType": 1,
+                  "key": "shotsOnGoal"
+                },
+                {
+                  "name": "Hit woodwork",
+                  "home": "0",
+                  "away": "0",
+                  "compareCode": 3,
+                  "statisticsType": "negative",
+                  "valueType": "event",
+                  "homeValue": 0,
+                  "awayValue": 0,
+                  "renderType": 1,
+                  "key": "hitWoodwork"
+                },
+                {
+                  "name": "Shots off target",
+                  "home": "5",
+                  "away": "7",
+                  "compareCode": 2,
+                  "statisticsType": "negative",
+                  "valueType": "event",
+                  "homeValue": 5,
+                  "awayValue": 7,
+                  "renderType": 1,
+                  "key": "shotsOffGoal"
+                },
+                {
+                  "name": "Blocked shots",
+                  "home": "2",
+                  "away": "4",
+                  "compareCode": 2,
+                  "statisticsType": "negative",
+                  "valueType": "event",
+                  "homeValue": 2,
+                  "awayValue": 4,
+                  "renderType": 1,
+                  "key": "blockedScoringAttempt"
+                },
+                {
+                  "name": "Shots inside box",
+                  "home": "6",
+                  "away": "4",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 6,
+                  "awayValue": 4,
+                  "renderType": 1,
+                  "key": "totalShotsInsideBox"
+                },
+                {
+                  "name": "Shots outside box",
+                  "home": "5",
+                  "away": "10",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 5,
+                  "awayValue": 10,
+                  "renderType": 1,
+                  "key": "totalShotsOutsideBox"
+                }
+              ]
+            },
+            {
+              "groupName": "Attack",
+              "statisticsItems": [
+                {
+                  "name": "Big chances scored",
+                  "home": "1",
+                  "away": "0",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 1,
+                  "awayValue": 0,
+                  "renderType": 1,
+                  "key": "bigChanceScored"
+                },
+                {
+                  "name": "Big chances missed",
+                  "home": "2",
+                  "away": "2",
+                  "compareCode": 3,
+                  "statisticsType": "negative",
+                  "valueType": "event",
+                  "homeValue": 2,
+                  "awayValue": 2,
+                  "renderType": 1,
+                  "key": "bigChanceMissed"
+                },
+                {
+                  "name": "Through balls",
+                  "home": "0",
+                  "away": "2",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 0,
+                  "awayValue": 2,
+                  "renderType": 1,
+                  "key": "accurateThroughBall"
+                },
+                {
+                  "name": "Fouled in final third",
+                  "home": "5",
+                  "away": "4",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 5,
+                  "awayValue": 4,
+                  "renderType": 1,
+                  "key": "fouledFinalThird"
+                },
+                {
+                  "name": "Offsides",
+                  "home": "1",
+                  "away": "2",
+                  "compareCode": 2,
+                  "statisticsType": "negative",
+                  "valueType": "event",
+                  "homeValue": 1,
+                  "awayValue": 2,
+                  "renderType": 1,
+                  "key": "offsides"
+                }
+              ]
+            },
+            {
+              "groupName": "Passes",
+              "statisticsItems": [
+                {
+                  "name": "Accurate passes",
+                  "home": "270",
+                  "away": "314",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 270,
+                  "awayValue": 314,
+                  "renderType": 1,
+                  "key": "accuratePasses"
+                },
+                {
+                  "name": "Throw-ins",
+                  "home": "20",
+                  "away": "17",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 20,
+                  "awayValue": 17,
+                  "renderType": 1,
+                  "key": "throwIns"
+                },
+                {
+                  "name": "Final third entries",
+                  "home": "41",
+                  "away": "67",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 41,
+                  "awayValue": 67,
+                  "renderType": 1,
+                  "key": "finalThirdEntries"
+                },
+                {
+                  "name": "Long balls",
+                  "home": "13/42 (31%)",
+                  "away": "25/63 (40%)",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "team",
+                  "homeValue": 13,
+                  "awayValue": 25,
+                  "homeTotal": 42,
+                  "awayTotal": 63,
+                  "renderType": 3,
+                  "key": "accurateLongBalls"
+                },
+                {
+                  "name": "Crosses",
+                  "home": "5/17 (29%)",
+                  "away": "1/13 (8%)",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "team",
+                  "homeValue": 5,
+                  "awayValue": 1,
+                  "homeTotal": 17,
+                  "awayTotal": 13,
+                  "renderType": 3,
+                  "key": "accurateCross"
+                }
+              ]
+            },
+            {
+              "groupName": "Duels",
+              "statisticsItems": [
+                {
+                  "name": "Duels",
+                  "home": "52%",
+                  "away": "48%",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 52,
+                  "awayValue": 48,
+                  "renderType": 2,
+                  "key": "duelWonPercent"
+                },
+                {
+                  "name": "Dispossessed",
+                  "home": "11",
+                  "away": "9",
+                  "compareCode": 1,
+                  "statisticsType": "negative",
+                  "valueType": "event",
+                  "homeValue": 11,
+                  "awayValue": 9,
+                  "renderType": 1,
+                  "key": "dispossessed"
+                },
+                {
+                  "name": "Ground duels",
+                  "home": "49/98 (50%)",
+                  "away": "49/98 (50%)",
+                  "compareCode": 3,
+                  "statisticsType": "positive",
+                  "valueType": "team",
+                  "homeValue": 49,
+                  "awayValue": 49,
+                  "homeTotal": 98,
+                  "awayTotal": 98,
+                  "renderType": 3,
+                  "key": "groundDuelsPercentage"
+                },
+                {
+                  "name": "Aerial duels",
+                  "home": "21/36 (58%)",
+                  "away": "15/36 (42%)",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "team",
+                  "homeValue": 21,
+                  "awayValue": 15,
+                  "homeTotal": 36,
+                  "awayTotal": 36,
+                  "renderType": 3,
+                  "key": "aerialDuelsPercentage"
+                },
+                {
+                  "name": "Dribbles",
+                  "home": "16/30 (53%)",
+                  "away": "5/10 (50%)",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "team",
+                  "homeValue": 16,
+                  "awayValue": 5,
+                  "homeTotal": 30,
+                  "awayTotal": 10,
+                  "renderType": 3,
+                  "key": "dribblesPercentage"
+                }
+              ]
+            },
+            {
+              "groupName": "Defending",
+              "statisticsItems": [
+                {
+                  "name": "Tackles won",
+                  "home": "71%",
+                  "away": "36%",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "team",
+                  "homeValue": 10,
+                  "awayValue": 9,
+                  "homeTotal": 14,
+                  "awayTotal": 25,
+                  "renderType": 4,
+                  "key": "wonTacklePercent"
+                },
+                {
+                  "name": "Total tackles",
+                  "home": "14",
+                  "away": "25",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 14,
+                  "awayValue": 25,
+                  "renderType": 1,
+                  "key": "totalTackle"
+                },
+                {
+                  "name": "Interceptions",
+                  "home": "11",
+                  "away": "12",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 11,
+                  "awayValue": 12,
+                  "renderType": 1,
+                  "key": "interceptionWon"
+                },
+                {
+                  "name": "Clearances",
+                  "home": "16",
+                  "away": "17",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 16,
+                  "awayValue": 17,
+                  "renderType": 1,
+                  "key": "totalClearance"
+                }
+              ]
+            },
+            {
+              "groupName": "Goalkeeping",
+              "statisticsItems": [
+                {
+                  "name": "Total saves",
+                  "home": "3",
+                  "away": "3",
+                  "compareCode": 3,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 3,
+                  "awayValue": 3,
+                  "renderType": 1,
+                  "key": "goalkeeperSaves"
+                },
+                {
+                  "name": "Goals prevented",
+                  "home": "0.76",
+                  "away": "-0.78",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 0.7585,
+                  "awayValue": -0.777,
+                  "renderType": 1,
+                  "key": "goalsPrevented"
+                },
+                {
+                  "name": "Goal kicks",
+                  "home": "12",
+                  "away": "7",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 12,
+                  "awayValue": 7,
+                  "renderType": 1,
+                  "key": "goalKicks"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "period": "1ST",
+          "groups": [
+            {
+              "groupName": "Match overview",
+              "statisticsItems": [
+                {
+                  "name": "Ball possession",
+                  "home": "48%",
+                  "away": "52%",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 48,
+                  "awayValue": 52,
+                  "renderType": 2,
+                  "key": "ballPossession"
+                },
+                {
+                  "name": "Expected goals",
+                  "home": "0.18",
+                  "away": "0.28",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 0.18,
+                  "awayValue": 0.28,
+                  "renderType": 1,
+                  "key": "expectedGoals"
+                },
+                {
+                  "name": "Big chances",
+                  "home": "1",
+                  "away": "1",
+                  "compareCode": 3,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 1,
+                  "awayValue": 1,
+                  "renderType": 1,
+                  "key": "bigChanceCreated"
+                },
+                {
+                  "name": "Total shots",
+                  "home": "4",
+                  "away": "4",
+                  "compareCode": 3,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 4,
+                  "awayValue": 4,
+                  "renderType": 1,
+                  "key": "totalShotsOnGoal"
+                },
+                {
+                  "name": "Goalkeeper saves",
+                  "home": "1",
+                  "away": "1",
+                  "compareCode": 3,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 1,
+                  "awayValue": 1,
+                  "renderType": 1,
+                  "key": "goalkeeperSaves"
+                },
+                {
+                  "name": "Corner kicks",
+                  "home": "3",
+                  "away": "1",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 3,
+                  "awayValue": 1,
+                  "renderType": 1,
+                  "key": "cornerKicks"
+                },
+                {
+                  "name": "Passes",
+                  "home": "203",
+                  "away": "225",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 203,
+                  "awayValue": 225,
+                  "renderType": 1,
+                  "key": "passes"
+                },
+                {
+                  "name": "Tackles",
+                  "home": "5",
+                  "away": "7",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 5,
+                  "awayValue": 7,
+                  "renderType": 1,
+                  "key": "totalTackle"
+                },
+                {
+                  "name": "Free kicks",
+                  "home": "7",
+                  "away": "6",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 7,
+                  "awayValue": 6,
+                  "renderType": 1,
+                  "key": "freeKicks"
+                },
+                {
+                  "name": "Yellow cards",
+                  "home": "0",
+                  "away": "0",
+                  "compareCode": 3,
+                  "statisticsType": "negative",
+                  "valueType": "event",
+                  "homeValue": 0,
+                  "awayValue": 0,
+                  "renderType": 1,
+                  "key": "yellowCards"
+                }
+              ]
+            },
+            {
+              "groupName": "Shots",
+              "statisticsItems": [
+                {
+                  "name": "Total shots",
+                  "home": "4",
+                  "away": "4",
+                  "compareCode": 3,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 4,
+                  "awayValue": 4,
+                  "renderType": 1,
+                  "key": "totalShotsOnGoal"
+                },
+                {
+                  "name": "Shots on target",
+                  "home": "2",
+                  "away": "1",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 2,
+                  "awayValue": 1,
+                  "renderType": 1,
+                  "key": "shotsOnGoal"
+                },
+                {
+                  "name": "Hit woodwork",
+                  "home": "0",
+                  "away": "0",
+                  "compareCode": 3,
+                  "statisticsType": "negative",
+                  "valueType": "event",
+                  "homeValue": 0,
+                  "awayValue": 0,
+                  "renderType": 1,
+                  "key": "hitWoodwork"
+                },
+                {
+                  "name": "Shots off target",
+                  "home": "1",
+                  "away": "3",
+                  "compareCode": 2,
+                  "statisticsType": "negative",
+                  "valueType": "event",
+                  "homeValue": 1,
+                  "awayValue": 3,
+                  "renderType": 1,
+                  "key": "shotsOffGoal"
+                },
+                {
+                  "name": "Blocked shots",
+                  "home": "1",
+                  "away": "0",
+                  "compareCode": 1,
+                  "statisticsType": "negative",
+                  "valueType": "event",
+                  "homeValue": 1,
+                  "awayValue": 0,
+                  "renderType": 1,
+                  "key": "blockedScoringAttempt"
+                },
+                {
+                  "name": "Shots inside box",
+                  "home": "2",
+                  "away": "1",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 2,
+                  "awayValue": 1,
+                  "renderType": 1,
+                  "key": "totalShotsInsideBox"
+                },
+                {
+                  "name": "Shots outside box",
+                  "home": "2",
+                  "away": "3",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 2,
+                  "awayValue": 3,
+                  "renderType": 1,
+                  "key": "totalShotsOutsideBox"
+                }
+              ]
+            },
+            {
+              "groupName": "Attack",
+              "statisticsItems": [
+                {
+                  "name": "Big chances scored",
+                  "home": "1",
+                  "away": "0",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 1,
+                  "awayValue": 0,
+                  "renderType": 1,
+                  "key": "bigChanceScored"
+                },
+                {
+                  "name": "Big chances missed",
+                  "home": "0",
+                  "away": "1",
+                  "compareCode": 2,
+                  "statisticsType": "negative",
+                  "valueType": "event",
+                  "homeValue": 0,
+                  "awayValue": 1,
+                  "renderType": 1,
+                  "key": "bigChanceMissed"
+                },
+                {
+                  "name": "Through balls",
+                  "home": "0",
+                  "away": "1",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 0,
+                  "awayValue": 1,
+                  "renderType": 1,
+                  "key": "accurateThroughBall"
+                },
+                {
+                  "name": "Fouled in final third",
+                  "home": "0",
+                  "away": "1",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 0,
+                  "awayValue": 1,
+                  "renderType": 1,
+                  "key": "fouledFinalThird"
+                },
+                {
+                  "name": "Offsides",
+                  "home": "1",
+                  "away": "1",
+                  "compareCode": 3,
+                  "statisticsType": "negative",
+                  "valueType": "event",
+                  "homeValue": 1,
+                  "awayValue": 1,
+                  "renderType": 1,
+                  "key": "offsides"
+                }
+              ]
+            },
+            {
+              "groupName": "Passes",
+              "statisticsItems": [
+                {
+                  "name": "Accurate passes",
+                  "home": "149",
+                  "away": "178",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 149,
+                  "awayValue": 178,
+                  "renderType": 1,
+                  "key": "accuratePasses"
+                },
+                {
+                  "name": "Throw-ins",
+                  "home": "12",
+                  "away": "10",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 12,
+                  "awayValue": 10,
+                  "renderType": 1,
+                  "key": "throwIns"
+                },
+                {
+                  "name": "Final third entries",
+                  "home": "18",
+                  "away": "45",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 18,
+                  "awayValue": 45,
+                  "renderType": 1,
+                  "key": "finalThirdEntries"
+                },
+                {
+                  "name": "Long balls",
+                  "home": "7/26 (27%)",
+                  "away": "15/40 (38%)",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "team",
+                  "homeValue": 7,
+                  "awayValue": 15,
+                  "homeTotal": 26,
+                  "awayTotal": 40,
+                  "renderType": 3,
+                  "key": "accurateLongBalls"
+                },
+                {
+                  "name": "Crosses",
+                  "home": "2/11 (18%)",
+                  "away": "0/5 (0%)",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "team",
+                  "homeValue": 2,
+                  "awayValue": 0,
+                  "homeTotal": 11,
+                  "awayTotal": 5,
+                  "renderType": 3,
+                  "key": "accurateCross"
+                }
+              ]
+            },
+            {
+              "groupName": "Duels",
+              "statisticsItems": [
+                {
+                  "name": "Duels",
+                  "home": "55%",
+                  "away": "45%",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 55,
+                  "awayValue": 45,
+                  "renderType": 2,
+                  "key": "duelWonPercent"
+                },
+                {
+                  "name": "Dispossessed",
+                  "home": "4",
+                  "away": "2",
+                  "compareCode": 1,
+                  "statisticsType": "negative",
+                  "valueType": "event",
+                  "homeValue": 4,
+                  "awayValue": 2,
+                  "renderType": 1,
+                  "key": "dispossessed"
+                },
+                {
+                  "name": "Ground duels",
+                  "home": "21/36 (58%)",
+                  "away": "15/36 (42%)",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "team",
+                  "homeValue": 21,
+                  "awayValue": 15,
+                  "homeTotal": 36,
+                  "awayTotal": 36,
+                  "renderType": 3,
+                  "key": "groundDuelsPercentage"
+                },
+                {
+                  "name": "Aerial duels",
+                  "home": "11/22 (50%)",
+                  "away": "11/22 (50%)",
+                  "compareCode": 3,
+                  "statisticsType": "positive",
+                  "valueType": "team",
+                  "homeValue": 11,
+                  "awayValue": 11,
+                  "homeTotal": 22,
+                  "awayTotal": 22,
+                  "renderType": 3,
+                  "key": "aerialDuelsPercentage"
+                },
+                {
+                  "name": "Dribbles",
+                  "home": "9/12 (75%)",
+                  "away": "2/5 (40%)",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "team",
+                  "homeValue": 9,
+                  "awayValue": 2,
+                  "homeTotal": 12,
+                  "awayTotal": 5,
+                  "renderType": 3,
+                  "key": "dribblesPercentage"
+                }
+              ]
+            },
+            {
+              "groupName": "Defending",
+              "statisticsItems": [
+                {
+                  "name": "Tackles won",
+                  "home": "80%",
+                  "away": "29%",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "team",
+                  "homeValue": 4,
+                  "awayValue": 2,
+                  "homeTotal": 5,
+                  "awayTotal": 7,
+                  "renderType": 4,
+                  "key": "wonTacklePercent"
+                },
+                {
+                  "name": "Total tackles",
+                  "home": "5",
+                  "away": "7",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 5,
+                  "awayValue": 7,
+                  "renderType": 1,
+                  "key": "totalTackle"
+                },
+                {
+                  "name": "Interceptions",
+                  "home": "4",
+                  "away": "6",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 4,
+                  "awayValue": 6,
+                  "renderType": 1,
+                  "key": "interceptionWon"
+                },
+                {
+                  "name": "Clearances",
+                  "home": "4",
+                  "away": "11",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 4,
+                  "awayValue": 11,
+                  "renderType": 1,
+                  "key": "totalClearance"
+                }
+              ]
+            },
+            {
+              "groupName": "Goalkeeping",
+              "statisticsItems": [
+                {
+                  "name": "Total saves",
+                  "home": "1",
+                  "away": "1",
+                  "compareCode": 3,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 1,
+                  "awayValue": 1,
+                  "renderType": 1,
+                  "key": "goalkeeperSaves"
+                },
+                {
+                  "name": "Goal kicks",
+                  "home": "6",
+                  "away": "3",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 6,
+                  "awayValue": 3,
+                  "renderType": 1,
+                  "key": "goalKicks"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "period": "2ND",
+          "groups": [
+            {
+              "groupName": "Match overview",
+              "statisticsItems": [
+                {
+                  "name": "Ball possession",
+                  "home": "49%",
+                  "away": "51%",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 49,
+                  "awayValue": 51,
+                  "renderType": 2,
+                  "key": "ballPossession"
+                },
+                {
+                  "name": "Expected goals",
+                  "home": "0.60",
+                  "away": "0.54",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 0.6,
+                  "awayValue": 0.54,
+                  "renderType": 1,
+                  "key": "expectedGoals"
+                },
+                {
+                  "name": "Big chances",
+                  "home": "2",
+                  "away": "1",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 2,
+                  "awayValue": 1,
+                  "renderType": 1,
+                  "key": "bigChanceCreated"
+                },
+                {
+                  "name": "Total shots",
+                  "home": "7",
+                  "away": "10",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 7,
+                  "awayValue": 10,
+                  "renderType": 1,
+                  "key": "totalShotsOnGoal"
+                },
+                {
+                  "name": "Goalkeeper saves",
+                  "home": "2",
+                  "away": "2",
+                  "compareCode": 3,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 2,
+                  "awayValue": 2,
+                  "renderType": 1,
+                  "key": "goalkeeperSaves"
+                },
+                {
+                  "name": "Corner kicks",
+                  "home": "2",
+                  "away": "3",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 2,
+                  "awayValue": 3,
+                  "renderType": 1,
+                  "key": "cornerKicks"
+                },
+                {
+                  "name": "Passes",
+                  "home": "155",
+                  "away": "164",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 155,
+                  "awayValue": 164,
+                  "renderType": 1,
+                  "key": "passes"
+                },
+                {
+                  "name": "Tackles",
+                  "home": "9",
+                  "away": "18",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 9,
+                  "awayValue": 18,
+                  "renderType": 1,
+                  "key": "totalTackle"
+                },
+                {
+                  "name": "Free kicks",
+                  "home": "12",
+                  "away": "13",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 12,
+                  "awayValue": 13,
+                  "renderType": 1,
+                  "key": "freeKicks"
+                },
+                {
+                  "name": "Yellow cards",
+                  "home": "3",
+                  "away": "3",
+                  "compareCode": 3,
+                  "statisticsType": "negative",
+                  "valueType": "event",
+                  "homeValue": 3,
+                  "awayValue": 3,
+                  "renderType": 1,
+                  "key": "yellowCards"
+                }
+              ]
+            },
+            {
+              "groupName": "Shots",
+              "statisticsItems": [
+                {
+                  "name": "Total shots",
+                  "home": "7",
+                  "away": "10",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 7,
+                  "awayValue": 10,
+                  "renderType": 1,
+                  "key": "totalShotsOnGoal"
+                },
+                {
+                  "name": "Shots on target",
+                  "home": "2",
+                  "away": "2",
+                  "compareCode": 3,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 2,
+                  "awayValue": 2,
+                  "renderType": 1,
+                  "key": "shotsOnGoal"
+                },
+                {
+                  "name": "Hit woodwork",
+                  "home": "0",
+                  "away": "0",
+                  "compareCode": 3,
+                  "statisticsType": "negative",
+                  "valueType": "event",
+                  "homeValue": 0,
+                  "awayValue": 0,
+                  "renderType": 1,
+                  "key": "hitWoodwork"
+                },
+                {
+                  "name": "Shots off target",
+                  "home": "4",
+                  "away": "4",
+                  "compareCode": 3,
+                  "statisticsType": "negative",
+                  "valueType": "event",
+                  "homeValue": 4,
+                  "awayValue": 4,
+                  "renderType": 1,
+                  "key": "shotsOffGoal"
+                },
+                {
+                  "name": "Blocked shots",
+                  "home": "1",
+                  "away": "4",
+                  "compareCode": 2,
+                  "statisticsType": "negative",
+                  "valueType": "event",
+                  "homeValue": 1,
+                  "awayValue": 4,
+                  "renderType": 1,
+                  "key": "blockedScoringAttempt"
+                },
+                {
+                  "name": "Shots inside box",
+                  "home": "4",
+                  "away": "3",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 4,
+                  "awayValue": 3,
+                  "renderType": 1,
+                  "key": "totalShotsInsideBox"
+                },
+                {
+                  "name": "Shots outside box",
+                  "home": "3",
+                  "away": "7",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 3,
+                  "awayValue": 7,
+                  "renderType": 1,
+                  "key": "totalShotsOutsideBox"
+                }
+              ]
+            },
+            {
+              "groupName": "Attack",
+              "statisticsItems": [
+                {
+                  "name": "Big chances scored",
+                  "home": "0",
+                  "away": "0",
+                  "compareCode": 3,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 0,
+                  "awayValue": 0,
+                  "renderType": 1,
+                  "key": "bigChanceScored"
+                },
+                {
+                  "name": "Big chances missed",
+                  "home": "2",
+                  "away": "1",
+                  "compareCode": 1,
+                  "statisticsType": "negative",
+                  "valueType": "event",
+                  "homeValue": 2,
+                  "awayValue": 1,
+                  "renderType": 1,
+                  "key": "bigChanceMissed"
+                },
+                {
+                  "name": "Through balls",
+                  "home": "0",
+                  "away": "1",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 0,
+                  "awayValue": 1,
+                  "renderType": 1,
+                  "key": "accurateThroughBall"
+                },
+                {
+                  "name": "Fouled in final third",
+                  "home": "5",
+                  "away": "3",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 5,
+                  "awayValue": 3,
+                  "renderType": 1,
+                  "key": "fouledFinalThird"
+                },
+                {
+                  "name": "Offsides",
+                  "home": "0",
+                  "away": "1",
+                  "compareCode": 2,
+                  "statisticsType": "negative",
+                  "valueType": "event",
+                  "homeValue": 0,
+                  "awayValue": 1,
+                  "renderType": 1,
+                  "key": "offsides"
+                }
+              ]
+            },
+            {
+              "groupName": "Passes",
+              "statisticsItems": [
+                {
+                  "name": "Accurate passes",
+                  "home": "121",
+                  "away": "136",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 121,
+                  "awayValue": 136,
+                  "renderType": 1,
+                  "key": "accuratePasses"
+                },
+                {
+                  "name": "Throw-ins",
+                  "home": "8",
+                  "away": "7",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 8,
+                  "awayValue": 7,
+                  "renderType": 1,
+                  "key": "throwIns"
+                },
+                {
+                  "name": "Final third entries",
+                  "home": "23",
+                  "away": "22",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 23,
+                  "awayValue": 22,
+                  "renderType": 1,
+                  "key": "finalThirdEntries"
+                },
+                {
+                  "name": "Long balls",
+                  "home": "6/16 (38%)",
+                  "away": "10/23 (43%)",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "team",
+                  "homeValue": 6,
+                  "awayValue": 10,
+                  "homeTotal": 16,
+                  "awayTotal": 23,
+                  "renderType": 3,
+                  "key": "accurateLongBalls"
+                },
+                {
+                  "name": "Crosses",
+                  "home": "3/6 (50%)",
+                  "away": "1/8 (13%)",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "team",
+                  "homeValue": 3,
+                  "awayValue": 1,
+                  "homeTotal": 6,
+                  "awayTotal": 8,
+                  "renderType": 3,
+                  "key": "accurateCross"
+                }
+              ]
+            },
+            {
+              "groupName": "Duels",
+              "statisticsItems": [
+                {
+                  "name": "Duels",
+                  "home": "50%",
+                  "away": "50%",
+                  "compareCode": 3,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 50,
+                  "awayValue": 50,
+                  "renderType": 2,
+                  "key": "duelWonPercent"
+                },
+                {
+                  "name": "Dispossessed",
+                  "home": "7",
+                  "away": "7",
+                  "compareCode": 3,
+                  "statisticsType": "negative",
+                  "valueType": "event",
+                  "homeValue": 7,
+                  "awayValue": 7,
+                  "renderType": 1,
+                  "key": "dispossessed"
+                },
+                {
+                  "name": "Ground duels",
+                  "home": "28/62 (45%)",
+                  "away": "34/62 (55%)",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "team",
+                  "homeValue": 28,
+                  "awayValue": 34,
+                  "homeTotal": 62,
+                  "awayTotal": 62,
+                  "renderType": 3,
+                  "key": "groundDuelsPercentage"
+                },
+                {
+                  "name": "Aerial duels",
+                  "home": "10/14 (71%)",
+                  "away": "4/14 (29%)",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "team",
+                  "homeValue": 10,
+                  "awayValue": 4,
+                  "homeTotal": 14,
+                  "awayTotal": 14,
+                  "renderType": 3,
+                  "key": "aerialDuelsPercentage"
+                },
+                {
+                  "name": "Dribbles",
+                  "home": "7/18 (39%)",
+                  "away": "3/5 (60%)",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "team",
+                  "homeValue": 7,
+                  "awayValue": 3,
+                  "homeTotal": 18,
+                  "awayTotal": 5,
+                  "renderType": 3,
+                  "key": "dribblesPercentage"
+                }
+              ]
+            },
+            {
+              "groupName": "Defending",
+              "statisticsItems": [
+                {
+                  "name": "Tackles won",
+                  "home": "67%",
+                  "away": "39%",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "team",
+                  "homeValue": 6,
+                  "awayValue": 7,
+                  "homeTotal": 9,
+                  "awayTotal": 18,
+                  "renderType": 4,
+                  "key": "wonTacklePercent"
+                },
+                {
+                  "name": "Total tackles",
+                  "home": "9",
+                  "away": "18",
+                  "compareCode": 2,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 9,
+                  "awayValue": 18,
+                  "renderType": 1,
+                  "key": "totalTackle"
+                },
+                {
+                  "name": "Interceptions",
+                  "home": "7",
+                  "away": "6",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 7,
+                  "awayValue": 6,
+                  "renderType": 1,
+                  "key": "interceptionWon"
+                },
+                {
+                  "name": "Clearances",
+                  "home": "12",
+                  "away": "6",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 12,
+                  "awayValue": 6,
+                  "renderType": 1,
+                  "key": "totalClearance"
+                }
+              ]
+            },
+            {
+              "groupName": "Goalkeeping",
+              "statisticsItems": [
+                {
+                  "name": "Total saves",
+                  "home": "2",
+                  "away": "2",
+                  "compareCode": 3,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 2,
+                  "awayValue": 2,
+                  "renderType": 1,
+                  "key": "goalkeeperSaves"
+                },
+                {
+                  "name": "Goal kicks",
+                  "home": "6",
+                  "away": "4",
+                  "compareCode": 1,
+                  "statisticsType": "positive",
+                  "valueType": "event",
+                  "homeValue": 6,
+                  "awayValue": 4,
+                  "renderType": 1,
+                  "key": "goalKicks"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "incidents": {
+      "incidents": [
+        {
+          "text": "FT",
+          "homeScore": 2,
+          "awayScore": 0,
+          "isLive": false,
+          "time": 90,
+          "addedTime": 999,
+          "timeSeconds": 5400,
+          "reversedPeriodTime": 1,
+          "reversedPeriodTimeSeconds": 0,
+          "periodTimeSeconds": 2700,
+          "incidentType": "period"
+        },
+        {
+          "from": "owngoal",
+          "homeScore": 2,
+          "awayScore": 0,
+          "player": {
+            "name": "Nicol\u00e1s Hern\u00e1ndez",
+            "shortName": "N. Hern\u00e1ndez",
+            "position": "D",
+            "height": 180,
+            "userCount": 245,
+            "id": 887155,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 885081600,
+            "proposedMarketValueRaw": {
+              "value": 290000,
+              "currency": "EUR"
+            }
+          },
+          "footballPassingNetworkAction": [],
+          "id": 166101645,
+          "time": 90,
+          "addedTime": 2,
+          "isHome": true,
+          "incidentClass": "ownGoal",
+          "reversedPeriodTime": 1,
+          "incidentType": "goal"
+        },
+        {
+          "player": {
+            "name": "Matheus Felipe",
+            "firstName": "",
+            "lastName": "",
+            "shortName": "M. Felipe",
+            "position": "D",
+            "jerseyNumber": "4",
+            "height": 186,
+            "userCount": 128,
+            "id": 1110173,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 910569600,
+            "proposedMarketValueRaw": {
+              "value": 1000000,
+              "currency": "EUR"
+            }
+          },
+          "playerName": "Matheus Felipe",
+          "reason": "Foul",
+          "rescinded": false,
+          "id": 120476157,
+          "time": 90,
+          "isHome": false,
+          "incidentClass": "yellow",
+          "reversedPeriodTime": 1,
+          "incidentType": "card"
+        },
+        {
+          "length": 3,
+          "time": 90,
+          "addedTime": 0,
+          "reversedPeriodTime": 1,
+          "incidentType": "injuryTime"
+        },
+        {
+          "player": {
+            "name": "Marcos Leonardo",
+            "shortName": "M. Leonardo",
+            "position": "F",
+            "jerseyNumber": "11",
+            "height": 177,
+            "userCount": 23133,
+            "sofascoreId": "marcosleonardo09",
+            "id": 1047227,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1051833600,
+            "proposedMarketValueRaw": {
+              "value": 18700000,
+              "currency": "EUR"
+            }
+          },
+          "playerName": "Marcos Leonardo",
+          "reason": "Foul",
+          "rescinded": false,
+          "id": 120476153,
+          "time": 86,
+          "isHome": true,
+          "incidentClass": "yellow",
+          "reversedPeriodTime": 5,
+          "incidentType": "card"
+        },
+        {
+          "player": {
+            "name": "Nathan",
+            "firstName": "",
+            "lastName": "",
+            "shortName": "Nathan",
+            "position": "D",
+            "jerseyNumber": "23",
+            "height": 183,
+            "userCount": 461,
+            "id": 1016912,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 999648000,
+            "proposedMarketValueRaw": {
+              "value": 1900000,
+              "currency": "EUR"
+            }
+          },
+          "playerName": "Nathan",
+          "reason": "Foul",
+          "rescinded": false,
+          "id": 120476149,
+          "time": 84,
+          "isHome": true,
+          "incidentClass": "yellow",
+          "reversedPeriodTime": 7,
+          "incidentType": "card"
+        },
+        {
+          "playerIn": {
+            "name": "Lucas Barbosa",
+            "firstName": "Lucas Barbosa",
+            "shortName": "L. Barbosa",
+            "position": "M",
+            "jerseyNumber": "21",
+            "height": 193,
+            "userCount": 776,
+            "id": 1067641,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 982800000,
+            "proposedMarketValueRaw": {
+              "value": 4099999,
+              "currency": "EUR"
+            }
+          },
+          "playerOut": {
+            "name": "Luan",
+            "firstName": "",
+            "lastName": "",
+            "shortName": "Luan",
+            "position": "F",
+            "height": 180,
+            "userCount": 1118,
+            "id": 386210,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 733190400,
+            "proposedMarketValueRaw": {
+              "value": 220000,
+              "currency": "EUR"
+            }
+          },
+          "id": 121338593,
+          "time": 81,
+          "injury": false,
+          "isHome": true,
+          "incidentClass": "regular",
+          "reversedPeriodTime": 10,
+          "incidentType": "substitution"
+        },
+        {
+          "playerIn": {
+            "name": "Sandry",
+            "firstName": "",
+            "lastName": "",
+            "shortName": "Sandry",
+            "position": "M",
+            "jerseyNumber": "38",
+            "height": 173,
+            "userCount": 520,
+            "id": 973847,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1030665600,
+            "proposedMarketValueRaw": {
+              "value": 970000,
+              "currency": "EUR"
+            }
+          },
+          "playerOut": {
+            "name": "Carlos S\u00e1nchez",
+            "firstName": "",
+            "lastName": "",
+            "shortName": "C. S\u00e1nchez",
+            "position": "M",
+            "height": 170,
+            "userCount": 309,
+            "id": 77034,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 470793600
+          },
+          "id": 121338592,
+          "time": 81,
+          "injury": false,
+          "isHome": true,
+          "incidentClass": "regular",
+          "reversedPeriodTime": 10,
+          "incidentType": "substitution"
+        },
+        {
+          "playerIn": {
+            "name": "Lucas Braga",
+            "shortName": "L. Braga",
+            "position": "M",
+            "jerseyNumber": "22",
+            "height": 184,
+            "userCount": 445,
+            "id": 934801,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 847584000,
+            "proposedMarketValueRaw": {
+              "value": 970000,
+              "currency": "EUR"
+            }
+          },
+          "playerOut": {
+            "name": "Guilherme Camacho",
+            "shortName": "G. Camacho",
+            "position": "M",
+            "jerseyNumber": "5",
+            "height": 180,
+            "userCount": 178,
+            "id": 76444,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 636336000,
+            "proposedMarketValueRaw": {
+              "value": 240000,
+              "currency": "EUR"
+            }
+          },
+          "id": 121338581,
+          "time": 76,
+          "injury": false,
+          "isHome": true,
+          "incidentClass": "regular",
+          "reversedPeriodTime": 15,
+          "incidentType": "substitution"
+        },
+        {
+          "playerIn": {
+            "name": "Vitor Roque",
+            "firstName": "Vitor Roque",
+            "shortName": "V. Roque",
+            "position": "F",
+            "jerseyNumber": "9",
+            "height": 174,
+            "userCount": 82779,
+            "sofascoreId": "VRoque",
+            "id": 1150391,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1109548800,
+            "proposedMarketValueRaw": {
+              "value": 21000000,
+              "currency": "EUR"
+            }
+          },
+          "playerOut": {
+            "name": "Vitor Bueno",
+            "firstName": "",
+            "lastName": "",
+            "shortName": "Vitor Bueno",
+            "position": "M",
+            "jerseyNumber": "55",
+            "height": 183,
+            "userCount": 460,
+            "id": 808785,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 778723200,
+            "proposedMarketValueRaw": {
+              "value": 1500000,
+              "currency": "EUR"
+            }
+          },
+          "id": 121338578,
+          "time": 72,
+          "injury": false,
+          "isHome": false,
+          "incidentClass": "regular",
+          "reversedPeriodTime": 19,
+          "incidentType": "substitution"
+        },
+        {
+          "playerIn": {
+            "name": "R\u00f4mulo",
+            "firstName": "R\u00f4mulo",
+            "lastName": "",
+            "shortName": "R\u00f4mulo",
+            "position": "F",
+            "jerseyNumber": "79",
+            "height": 193,
+            "userCount": 2209,
+            "id": 1133743,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1013126400,
+            "proposedMarketValueRaw": {
+              "value": 11600000,
+              "currency": "EUR"
+            }
+          },
+          "playerOut": {
+            "name": "Pablo",
+            "firstName": "",
+            "lastName": "",
+            "shortName": "Pablo",
+            "position": "F",
+            "jerseyNumber": "92",
+            "height": 185,
+            "userCount": 988,
+            "id": 374486,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 709257600,
+            "proposedMarketValueRaw": {
+              "value": 650000,
+              "currency": "EUR"
+            }
+          },
+          "id": 121338576,
+          "time": 72,
+          "injury": false,
+          "isHome": false,
+          "incidentClass": "regular",
+          "reversedPeriodTime": 19,
+          "incidentType": "substitution"
+        },
+        {
+          "playerIn": {
+            "name": "Marlos Romero",
+            "shortName": "Marlos",
+            "position": "M",
+            "height": 173,
+            "userCount": 282,
+            "id": 61073,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 581644800
+          },
+          "playerOut": {
+            "name": "David Terans",
+            "firstName": "",
+            "lastName": "",
+            "shortName": "David Terans",
+            "position": "M",
+            "jerseyNumber": "80",
+            "height": 176,
+            "userCount": 942,
+            "id": 586662,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 776563200,
+            "proposedMarketValueRaw": {
+              "value": 1400000,
+              "currency": "EUR"
+            }
+          },
+          "id": 121338577,
+          "time": 72,
+          "injury": false,
+          "isHome": false,
+          "incidentClass": "regular",
+          "reversedPeriodTime": 19,
+          "incidentType": "substitution"
+        },
+        {
+          "player": {
+            "name": "Alex Santana",
+            "shortName": "A. Santana",
+            "position": "M",
+            "jerseyNumber": "80",
+            "height": 182,
+            "userCount": 2847,
+            "id": 358166,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 800323200,
+            "proposedMarketValueRaw": {
+              "value": 1200000,
+              "currency": "EUR"
+            }
+          },
+          "playerName": "Alex Santana",
+          "reason": "Foul",
+          "rescinded": false,
+          "id": 120476142,
+          "time": 63,
+          "isHome": false,
+          "incidentClass": "yellow",
+          "reversedPeriodTime": 28,
+          "incidentType": "card"
+        },
+        {
+          "player": {
+            "name": "Felipe Jonatan",
+            "firstName": "",
+            "lastName": "",
+            "shortName": "F. Jonatan",
+            "position": "D",
+            "jerseyNumber": "16",
+            "height": 176,
+            "userCount": 459,
+            "id": 931574,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 887500800,
+            "proposedMarketValueRaw": {
+              "value": 2100000,
+              "currency": "EUR"
+            }
+          },
+          "playerName": "Felipe Jonatan",
+          "reason": "Argument",
+          "rescinded": false,
+          "id": 120476138,
+          "time": 58,
+          "isHome": true,
+          "incidentClass": "yellow",
+          "reversedPeriodTime": 33,
+          "incidentType": "card"
+        },
+        {
+          "player": {
+            "name": "Pablo",
+            "firstName": "",
+            "lastName": "",
+            "shortName": "Pablo",
+            "position": "F",
+            "jerseyNumber": "92",
+            "height": 185,
+            "userCount": 988,
+            "id": 374486,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 709257600,
+            "proposedMarketValueRaw": {
+              "value": 650000,
+              "currency": "EUR"
+            }
+          },
+          "playerName": "Pablo",
+          "reason": "Foul",
+          "rescinded": false,
+          "id": 120476135,
+          "time": 54,
+          "isHome": false,
+          "incidentClass": "yellow",
+          "reversedPeriodTime": 37,
+          "incidentType": "card"
+        },
+        {
+          "playerIn": {
+            "name": "Tom\u00e1s Cuello",
+            "shortName": "T. Cuello",
+            "position": "M",
+            "jerseyNumber": "28",
+            "height": 176,
+            "userCount": 1785,
+            "id": 871273,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 952214400,
+            "proposedMarketValueRaw": {
+              "value": 6600000,
+              "currency": "EUR"
+            }
+          },
+          "playerOut": {
+            "name": "Vitinho",
+            "firstName": "",
+            "lastName": "",
+            "shortName": "Vitinho",
+            "position": "M",
+            "jerseyNumber": "28",
+            "height": 181,
+            "userCount": 900,
+            "id": 982405,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 922924800,
+            "proposedMarketValueRaw": {
+              "value": 7300000,
+              "currency": "EUR"
+            }
+          },
+          "id": 121338555,
+          "time": 46,
+          "injury": false,
+          "isHome": false,
+          "incidentClass": "regular",
+          "reversedPeriodTime": 45,
+          "incidentType": "substitution"
+        },
+        {
+          "playerIn": {
+            "name": "Alex Santana",
+            "shortName": "A. Santana",
+            "position": "M",
+            "jerseyNumber": "80",
+            "height": 182,
+            "userCount": 2847,
+            "id": 358166,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 800323200,
+            "proposedMarketValueRaw": {
+              "value": 1200000,
+              "currency": "EUR"
+            }
+          },
+          "playerOut": {
+            "name": "Hugo Moura",
+            "shortName": "H. Moura",
+            "position": "M",
+            "jerseyNumber": "25",
+            "height": 177,
+            "userCount": 1661,
+            "id": 973293,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 883785600,
+            "proposedMarketValueRaw": {
+              "value": 1700000,
+              "currency": "EUR"
+            }
+          },
+          "id": 121338554,
+          "time": 46,
+          "injury": false,
+          "isHome": false,
+          "incidentClass": "regular",
+          "reversedPeriodTime": 45,
+          "incidentType": "substitution"
+        },
+        {
+          "text": "HT",
+          "homeScore": 1,
+          "awayScore": 0,
+          "isLive": false,
+          "time": 45,
+          "addedTime": 999,
+          "timeSeconds": 2700,
+          "reversedPeriodTime": 1,
+          "reversedPeriodTimeSeconds": 0,
+          "periodTimeSeconds": 2700,
+          "incidentType": "period"
+        },
+        {
+          "length": 6,
+          "time": 45,
+          "addedTime": 0,
+          "reversedPeriodTime": 1,
+          "incidentType": "injuryTime"
+        },
+        {
+          "homeScore": 1,
+          "awayScore": 0,
+          "player": {
+            "name": "Luan",
+            "firstName": "",
+            "lastName": "",
+            "shortName": "Luan",
+            "position": "F",
+            "height": 180,
+            "userCount": 1118,
+            "id": 386210,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 733190400,
+            "proposedMarketValueRaw": {
+              "value": 220000,
+              "currency": "EUR"
+            }
+          },
+          "assist1": {
+            "name": "Felipe Jonatan",
+            "firstName": "",
+            "lastName": "",
+            "shortName": "F. Jonatan",
+            "position": "D",
+            "jerseyNumber": "16",
+            "height": 176,
+            "userCount": 459,
+            "id": 931574,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 887500800,
+            "proposedMarketValueRaw": {
+              "value": 2100000,
+              "currency": "EUR"
+            }
+          },
+          "footballPassingNetworkAction": [],
+          "id": 166099404,
+          "time": 35,
+          "isHome": true,
+          "incidentClass": "regular",
+          "reversedPeriodTime": 11,
+          "incidentType": "goal"
+        },
+        {
+          "confirmed": false,
+          "player": {
+            "name": "\u00c2ngelo",
+            "firstName": "\u00c2ngelo",
+            "lastName": "",
+            "shortName": "\u00c2ngelo",
+            "position": "M",
+            "jerseyNumber": "20",
+            "height": 182,
+            "userCount": 10149,
+            "sofascoreId": "angelogabriel",
+            "id": 1086455,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 1103587200,
+            "proposedMarketValueRaw": {
+              "value": 8600000,
+              "currency": "EUR"
+            }
+          },
+          "isHome": true,
+          "id": 13427,
+          "time": 28,
+          "incidentClass": "penaltyAwarded",
+          "reversedPeriodTime": 18,
+          "incidentType": "varDecision"
+        },
+        {
+          "playerIn": {
+            "name": "Luiz Felipe",
+            "firstName": "",
+            "lastName": "",
+            "shortName": "Luiz Felipe",
+            "position": "D",
+            "jerseyNumber": "3",
+            "height": 187,
+            "userCount": 119,
+            "id": 831993,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 747532800,
+            "proposedMarketValueRaw": {
+              "value": 640000,
+              "currency": "EUR"
+            }
+          },
+          "playerOut": {
+            "name": "Maicon",
+            "shortName": "Maicon",
+            "position": "D",
+            "jerseyNumber": "3",
+            "height": 191,
+            "userCount": 842,
+            "id": 44691,
+            "marketValueCurrency": "EUR",
+            "dateOfBirthTimestamp": 590198400,
+            "proposedMarketValueRaw": {
+              "value": 145000,
+              "currency": "EUR"
+            }
+          },
+          "id": 121338547,
+          "time": 15,
+          "injury": true,
+          "isHome": true,
+          "incidentClass": "injury",
+          "reversedPeriodTime": 31,
+          "incidentType": "substitution"
+        }
+      ],
+      "home": {
+        "goalkeeperColor": {
+          "primary": "ff0000",
+          "number": "ffffff",
+          "outline": "ff0000",
+          "fancyNumber": "ffffff"
+        },
+        "playerColor": {
+          "primary": "ffffff",
+          "number": "000000",
+          "outline": "ffffff",
+          "fancyNumber": "222226"
+        }
+      },
+      "away": {
+        "goalkeeperColor": {
+          "primary": "050080",
+          "number": "ffffff",
+          "outline": "050080",
+          "fancyNumber": "ffffff"
+        },
+        "playerColor": {
+          "primary": "ffffff",
+          "number": "000000",
+          "outline": "ffffff",
+          "fancyNumber": "222226"
+        }
+      }
+    }
+  }
+}
